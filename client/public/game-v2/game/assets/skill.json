@@ -1,0 +1,167 @@
+{
+	"textures": [
+		{
+			"image": "skill.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 113,
+				"h": 750
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "p_plus_30_damage.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 111
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 111,
+						"h": 111
+					}
+				},
+				{
+					"filename": "p_plus_50_damage.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 111
+					},
+					"frame": {
+						"x": 1,
+						"y": 114,
+						"w": 111,
+						"h": 111
+					}
+				},
+				{
+					"filename": "p_recover_200hp.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 111
+					},
+					"frame": {
+						"x": 1,
+						"y": 227,
+						"w": 111,
+						"h": 111
+					}
+				},
+				{
+					"filename": "plus_one_bullets.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 111
+					},
+					"frame": {
+						"x": 1,
+						"y": 340,
+						"w": 111,
+						"h": 111
+					}
+				},
+				{
+					"filename": "plus_two_bullets.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 111
+					},
+					"frame": {
+						"x": 1,
+						"y": 453,
+						"w": 111,
+						"h": 111
+					}
+				},
+				{
+					"filename": "three_bullets.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 111
+					},
+					"frame": {
+						"x": 1,
+						"y": 566,
+						"w": 111,
+						"h": 111
+					}
+				},
+				{
+					"filename": "lock.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 75,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 75,
+						"h": 70
+					},
+					"frame": {
+						"x": 1,
+						"y": 679,
+						"w": 75,
+						"h": 70
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:50e4c21dab856deb1eb7ba6bbb23a141:4084c4bae96b923ece0d5bcc5cdd761d:3bd8ebd33d825f21838e80e1fb4e5bdb$"
+	}
+}

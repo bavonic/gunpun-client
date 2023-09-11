@@ -1,0 +1,62 @@
+{
+	"textures": [
+		{
+			"image": "select-skill.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 448,
+				"h": 856
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "card.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 446,
+						"h": 522
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 446,
+						"h": 522
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 446,
+						"h": 522
+					}
+				},
+				{
+					"filename": "body.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 331,
+						"h": 330
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 331,
+						"h": 330
+					},
+					"frame": {
+						"x": 1,
+						"y": 525,
+						"w": 331,
+						"h": 330
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:4032672cbbc60ce95e95cb3e04d08279:c97f7e8eb4fce152116a033283ac652a:cf8849a0290c4a2a8d7c6f8b8803e7c1$"
+	}
+}

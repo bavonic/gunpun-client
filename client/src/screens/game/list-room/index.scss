@@ -1,0 +1,191 @@
+.game-list-room {
+  width: 100%;
+  height: 100%;
+  @include flexBox(flex-start, center, column);
+  background-image: url("~/public/game/assets/backgrounds/bg-game.png");
+  background-size: 100% 100%;
+
+  &__main {
+    width: 100%;
+    flex-direction: column;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  &__filters {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 1em;
+  }
+
+  &__button {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    height: 100%;
+    width: 100%;
+    @include flexBox;
+    z-index: 2;
+
+    &--active {
+      &::after {
+        background: linear-gradient(to right, #ff9501, #ffcc3d) !important;
+        border: 2px solid #ffeb54 !important;
+      }
+    }
+
+    > * {
+      z-index: 1;
+    }
+
+    > span {
+      @include textBorder(#0e2251);
+      cursor: pointer;
+    }
+
+    > span.active {
+      @include textBorder(#a1530e);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      cursor: pointer;
+      background: linear-gradient(to right, #152d6d, #1d43be);
+      border: 2px solid #1ddfff;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      border-radius: 3px;
+      transform: skewX(5deg);
+    }
+  }
+
+  &__filter-button {
+    height: 2.3em;
+    position: relative;
+    min-width: 10em;
+    padding: 0.5em;
+    @include flexBox;
+    transition: 0.2s;
+    cursor: pointer;
+
+    &:active {
+      transform: scale(0.9);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      border: 2px solid #1ddfff;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      border-radius: 3px;
+      transform: translate(5px, 5px) skewX(5deg);
+    }
+  }
+
+  &__list {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    padding-right: 1em;
+    row-gap: 1em;
+    max-height: 23em;
+    overflow: auto;
+  }
+
+  &__room {
+    min-height: 5em;
+    cursor: pointer;
+    background-image: url("~/public/game/assets/rooms/room-card.png");
+    background-size: 100% 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__head {
+      width: 100%;
+      justify-content: space-between;
+      display: flex;
+    }
+
+    &__id {
+      font-size: 1.2em;
+    }
+
+    &__label {
+      font-size: 1.2em;
+      padding-right: 2.5em;
+      padding-top: 0.2em;
+    }
+
+    &__body {
+      width: 100%;
+      justify-content: space-between;
+      display: flex;
+      padding-bottom: 0.3em;
+    }
+
+    &__owner {
+      padding-left: 0.5em;
+      font-size: 0.9em;
+      color: #0b1b56;
+      font-family: "Barmeno";
+      font-weight: 500;
+    }
+
+    &__status {
+      &.full {
+        color: #a3281e;
+        // font-family: GarnetCapitalsBold;
+        font-weight: 900;
+      }
+    }
+  }
+
+  &__action {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2em;
+  }
+
+  &__find {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+  }
+  &__input {
+    padding-left: 1em;
+    padding-top: 8px;
+    width: 27em;
+    background-color: rgba($color: #0b2a48, $alpha: 0.9);
+    height: 3em;
+    border-radius: 3px;
+    font-family: Barmeno;
+
+    &::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #cfcfcf;
+      opacity: 1; /* Firefox */
+    }
+
+    &:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #cfcfcf;
+    }
+
+    & ::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #cfcfcf;
+    }
+  }
+}

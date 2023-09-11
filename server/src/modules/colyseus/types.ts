@@ -1,0 +1,13 @@
+export enum GameEventType {
+  // Connection State
+  USER_CONNECTED = 'USER_CONNECTED',
+  USER_DISCONNECTED = 'USER_DISCONNECTED',
+
+  // User authentication
+  USER_SIGNED = 'USER_SIGNED',
+  USER_SEND_AUTH = 'USER_SEND_AUTH',
+
+  // Chat Room
+  CHAT_RECEIVE_MESSAGE = 'CHAT_RECEIVE_MESSAGE',
+  CHAT_SEND_MESSAGE = 'CHAT_SEND_MESSAGE',
+}

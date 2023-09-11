@@ -1,0 +1,167 @@
+@import "../module.variables.scss";
+
+.ModalGame {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 49;
+  padding-top: calc(0.5em);
+  background: rgba($color: $dark, $alpha: 0.8);
+  backdrop-filter: blur(2px);
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  .wraper {
+    width: max-content;
+    min-width: 800px;
+    max-width: calc(100% - 3em);
+    margin: 0 auto;
+    filter: drop-shadow(1px 5px 5px rgba($dark, 1));
+    @include flexBox;
+    flex-direction: column;
+
+    > .head {
+      width: 70%;
+      margin-bottom: -1rem;
+      z-index: 2;
+      position: relative;
+      @include flexBox;
+
+      > .vines {
+        position: absolute;
+        width: 25rem;
+        z-index: -1;
+        top: 15%;
+      }
+
+      .content {
+        position: relative;
+        @include flexBox;
+
+        .title {
+          position: absolute;
+          height: 100%;
+          width: 250px;
+          max-width: 100%;
+          @include flexBox;
+          color: $white;
+          position: relative;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          padding: 0.8em 1.5em;
+
+          h1 {
+            font-size: 1.1em;
+            text-transform: uppercase;
+            @include textBorder($dark);
+          }
+        }
+      }
+    }
+
+    > div {
+      &.body {
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        min-height: 30rem;
+        position: relative;
+        @include flexBox(center, flex-start);
+        padding: 1rem;
+
+        .btnClose {
+          position: absolute;
+          top: -1.4rem;
+          right: -1.4rem;
+          height: 2.8rem;
+          width: 2.8rem;
+          @include flexBox;
+          @include dropShadow;
+          cursor: pointer;
+
+          img,
+          svg {
+            height: 100%;
+            width: 100%;
+          }
+        }
+
+        > * {
+          z-index: 2;
+          width: 100%;
+        }
+
+        > img.leafModal {
+          width: 6rem;
+          position: absolute;
+          top: -2rem;
+          z-index: 1;
+
+          &.left {
+            left: -3rem;
+          }
+
+          &.right {
+            right: -3rem;
+            transform: scaleX(-1);
+          }
+        }
+
+        > img.frame {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+        }
+      }
+    }
+  }
+}
+
+$animationTime: 200ms;
+
+.ModalGameTransition-enter {
+  opacity: 0;
+  transform: scale(0.7);
+}
+
+.ModalGameTransition-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: $animationTime;
+}
+
+.ModalGameTransition-exit {
+  opacity: 1;
+}
+
+.ModalGameTransition-exit-active {
+  opacity: 0;
+  transform: scale(0.7);
+  transition: $animationTime;
+}
+
+.Mobile {
+  .ModalGame {
+    .wraper {
+      width: max-content;
+      min-width: auto;
+      padding-bottom: 3rem;
+
+      > div.body {
+        min-height: auto;
+      }
+
+      > div.head {
+        position: relative;
+        z-index: 5;
+
+        .btnClose {
+          right: 0rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.EmptyBox {
+  @include flexBox(center, center, column);
+  padding: 1em;
+  border-radius: $borderRadius;
+  background: rgba($dark, $alpha: 0.9);
+  z-index: 1;
+
+  img {
+    width: 5em;
+    margin-bottom: 0.3em;
+    filter: grayscale(100%);
+  }
+
+  p {
+    font-size: 0.8em;
+    opacity: 0.5;
+  }
+}

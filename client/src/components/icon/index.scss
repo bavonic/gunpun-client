@@ -1,0 +1,72 @@
+@import "../../module.variables.scss";
+
+// ============================ SPINNER STYLE ================================
+svg.spinner {
+  animation: spinnerRotate 2s linear infinite;
+  width: 1.4em;
+  height: 1.4em;
+
+  .path {
+    stroke: $white;
+    stroke-linecap: round;
+    animation: spinnerDash 1.5s ease-in-out infinite;
+  }
+}
+
+@keyframes spinnerRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinnerDash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -124;
+  }
+}
+
+.lds-fidget-spinner {
+  width: 3em;
+  height: 3em;
+}
+// ============================ End SPINNER STYLE ============================
+
+// ============================ Loading Icon style ================================
+.IconLoading {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+
+  &:after {
+    content: " ";
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    border-radius: 50%;
+    border: 2.5px solid;
+    border-color: $white transparent $white transparent;
+    animation: IconLoading 1s linear infinite;
+  }
+}
+
+@keyframes IconLoading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+// ============================ End Loading Icon style ============================

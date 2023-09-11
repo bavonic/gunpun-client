@@ -1,0 +1,77 @@
+.game-navigator__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
+
+  .game-navigator {
+    @include flexBox;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    gap: 2em;
+    z-index: 2;
+
+    &__title-wrapper {
+      display: flex;
+      flex-direction: column;
+      @include flexBox(center, center, column);
+      flex: 1;
+      position: relative;
+
+      > .title {
+        width: 100%;
+        background-image: url("~/public/game/assets/navigator/layout.png");
+        background-size: 100% 100%;
+        @include flexBox;
+        align-items: flex-start;
+        height: 5em;
+        z-index: 2;
+
+        > span {
+          font-size: 2em;
+          padding-top: 0.2em;
+        }
+      }
+
+      > .room-id {
+        background-image: url("~/public/game/assets/navigator/title-label.png");
+        background-size: 100% 100%;
+        width: 18%;
+        height: 3.5em;
+        @include flexBox;
+        padding-top: 1.3em;
+        margin-top: -1.9em;
+        z-index: 1;
+
+        > span {
+          color: #0ce6ff;
+          font-size: 0.9em;
+        }
+      }
+    }
+
+    &__button {
+      background-color: transparent;
+      border: none;
+      width: 4.5em;
+      cursor: pointer;
+    }
+  }
+}
+
+.Mobile {
+  .game-navigator__wrapper {
+    font-size: 80%;
+
+    .game-navigator {
+      &__button {
+        background-color: transparent;
+        border: none;
+        width: 3em;
+      }
+    }
+  }
+}

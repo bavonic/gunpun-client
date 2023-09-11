@@ -1,0 +1,382 @@
+@import "./module.variables.scss";
+@import "./screens";
+@import "./components";
+@import "./modal-game";
+@import "./modals";
+
+// ============================ Fonts style =====================================
+@font-face {
+  font-family: "Garnet";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/en_US/GarnetCapitals-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Garnet";
+  font-style: bold;
+  font-weight: 700;
+  src: url("fonts/en_US/GarnetCapitals-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Garnet";
+  font-style: black;
+  font-weight: 900;
+  src: url("fonts/en_US/GarnetCapitals-Black.ttf");
+}
+
+@font-face {
+  font-family: "Barmeno";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/en_US/Barmeno-Regular.otf");
+}
+
+@font-face {
+  font-family: "Barmeno";
+  font-style: medium;
+  font-weight: 500;
+  src: url("fonts/en_US/Barmeno-Medium.otf");
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("fonts/en_US/Oswald-Medium.ttf");
+}
+
+// @font-face {
+//   font-family: "FredokaOne";
+//   src: url("~/public/fonts/en_US/FredokaOne-Regular.ttf");
+// }
+
+// @font-face {
+//   font-family: "DelaGothicOne";
+//   src: url("~/public/fonts/ja_JP/DelaGothicOne-Regular.ttf");
+// }
+// ============================ End Fonts style =================================
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Garnet, Roboto, Helvetica, sans-serif;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  color: $white;
+  background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.AppWraper {
+  width: 100%;
+  height: 100%;
+  // font-family: Ubuntu;
+
+  &.lang-ja_JP {
+    font-family: RocknRollOne;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+// ============================ End HTML, BODY STYLE ============================
+
+// ============================ Typography style ================================
+.fontHeadline {
+  font-family: Garnet, Roboto, Helvetica, sans-serif;
+}
+
+// ============================ End Typography style ============================
+
+// ============================ Box Connect Wallet style ================================
+.BoxConnectWallet {
+  @include flexBox;
+
+  > .content {
+    width: 500px;
+    max-width: 100%;
+    @include flexBox(center, center, column);
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 15px;
+    border: 2px dashed $primary;
+
+    p {
+      margin-bottom: 0.8em;
+      font-size: 1em;
+      text-align: center;
+      color: $primary;
+    }
+  }
+
+  &.dark {
+    > .content {
+      background: rgba($color: $dark, $alpha: 0.7);
+      backdrop-filter: blur(2px);
+      border: none;
+    }
+  }
+}
+
+// ============================ End Box Connect Wallet style ============================
+
+// ============================ Message style ================================
+.Message {
+  @include flexBox;
+  padding: 1.5em;
+
+  svg {
+    margin-right: 0.5em;
+  }
+
+  &.light {
+    color: $white;
+
+    .path {
+      stroke: $white;
+    }
+  }
+
+  &.error {
+    color: $red;
+  }
+}
+
+// ============================ End Message style ============================
+
+// ============================ Container style ================================
+.mainContainer {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+
+  > .row {
+    width: 100%;
+    max-width: calc(100% - 20px);
+    @include flexBox(flex-start);
+
+    &.spaceBetween {
+      justify-content: space-between;
+    }
+
+    &.spaceAround {
+      justify-content: space-around;
+    }
+
+    &.center {
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .mainContainer {
+    > .row {
+      width: 540px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mainContainer {
+    > .row {
+      width: 720px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mainContainer {
+    > .row {
+      width: 960px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mainContainer {
+    > .row {
+      width: 1140px;
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .mainContainer {
+    > .row {
+      width: 1320px;
+    }
+  }
+}
+
+// ============================ End Container style ============================
+
+// ============================ Table style ================================
+.Table {
+  table {
+    border-color: $borderColor;
+
+    th,
+    td {
+      padding: 0.5em;
+      border: 1px solid $borderColor;
+    }
+  }
+}
+
+// ============================ End Table style ============================
+
+// ============================ ScrollBar style ================================
+* {
+  /* width */
+  &::-webkit-scrollbar {
+    width: 0.3em;
+    height: 0.5em;
+    background: #1e2e44;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: rgba($color: #000000, $alpha: 0);
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #1d43bd;
+    border-radius: $borderRadius;
+  }
+
+  /* Handle on hover */
+  // &::-webkit-scrollbar-thumb:hover {
+  //   backdrop-filter: brightness(10px);
+  // }
+}
+
+// ============================ End ScrollBar style ============================
+
+// ============================ MetamaskBrowser style ================================
+.MetamaskBrowser {
+  min-height: unset;
+  min-width: -webkit-fill-available;
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+// ============================ End MetamaskBrowser style ============================
+
+// ============================ Store Affiliate style ================================
+.StoreAffiliate {
+  @include flexBox(flex-start);
+  max-width: 100%;
+
+  .icon {
+    margin-right: 0.8em;
+
+    img {
+      width: 4em;
+    }
+  }
+
+  .content {
+    width: 400px;
+    max-width: 100%;
+
+    h3 {
+      color: $primary;
+      font-size: 1.1em;
+    }
+
+    p {
+      opacity: 0.8;
+      line-height: 1.3em;
+      font-size: 0.7em;
+      margin-bottom: 0.3em;
+    }
+
+    > .AffiliateRefBox {
+      font-size: 80%;
+    }
+  }
+}
+
+// ============================ End Store Affiliate style ============================
+
+// ============================ EggletType style ================================
+@mixin typeColor($color) {
+  color: $color;
+  background-color: $color;
+}
+
+.EggletType {
+  &._1 {
+    @include typeColor(#c0c0c0);
+  }
+
+  &._2 {
+    @include typeColor(#05b058);
+  }
+
+  &._3 {
+    @include typeColor(#332fff);
+  }
+
+  &._4 {
+    @include typeColor(#d70eff);
+  }
+
+  &._5 {
+    @include typeColor(#d8910d);
+  }
+
+  &._6 {
+    @include typeColor(#cd2f2f);
+  }
+}
+
+// ============================ End EggletType style ============================
+
+.fps-stats {
+  > div {
+    bottom: 0 !important;
+    top: unset !important;
+  }
+}
+
+.button-style {
+  transition: 0.2s;
+  background-color: transparent;
+  border: none;
+  width: 3.5em;
+  cursor: pointer;
+
+  &:active {
+    transform: scale(0.9);
+  }
+}

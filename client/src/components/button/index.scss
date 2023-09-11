@@ -1,0 +1,190 @@
+@import "../../module.variables.scss";
+
+@mixin btnColor($firstColor, $secondColor) {
+  background: linear-gradient(to bottom, $firstColor, $secondColor);
+}
+
+@mixin btnTextShadow($color: #000000) {
+  filter: drop-shadow(2px 2px 0px rgba($color, 1));
+}
+
+@mixin btnIconBorder($color: #000000) {
+  border: 1px solid $color;
+}
+
+.Button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: $buttonHeight;
+  font-family: Barmeno;
+  padding: 0 1.2em;
+  outline: none;
+  border: none;
+  border-radius: $borderRadius;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s;
+  width: max-content;
+  box-shadow: v2px 3px 5px rgba($color: #000000, $alpha: 0.4);
+  min-width: 10em;
+  background: linear-gradient(to right, #1f4ce0, #132961);
+  background-size: 100% 100%;
+  gap: 0.5rem;
+  border: 2px solid rgba($color: #40f8fe, $alpha: 1);
+  position: relative;
+
+  // &::after {
+  //   content: "";
+  //   position: absolute;
+  //   width: 108%;
+  //   height: 120%;
+  //   border-radius: $borderRadius;
+  //   border: 1px solid rgba($color: #40f8fe, $alpha: 1);
+  // }
+
+  > .iconLoading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba($color: $white, $alpha: 0);
+
+    svg {
+      height: 1.6em;
+
+      * {
+        fill: $dark;
+      }
+    }
+
+    .IconLoading {
+      &:after {
+        border-color: #000000 transparent #000000 transparent;
+      }
+    }
+  }
+
+  > svg {
+    height: 1.3em;
+    width: 1.3em;
+    position: relative;
+    margin-right: 0.3em;
+
+    * {
+      fill: $white;
+    }
+  }
+
+  > .label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: $white;
+    font-size: 1.4em;
+    width: max-content;
+    margin-top: 5px;
+  }
+
+  > svg,
+  > .label {
+    @include btnTextShadow();
+  }
+
+  > img {
+    border-radius: 50%;
+    @include btnIconBorder(#3d3b3b);
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    filter: grayscale(100%);
+    transform: none;
+  }
+
+  &.loading {
+    cursor: not-allowed;
+
+    span.label {
+      opacity: 0;
+    }
+
+    > svg {
+      opacity: 0;
+    }
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+  &.primary {
+  }
+
+  &.green {
+  }
+
+  &.blue {
+  }
+
+  &.cyan {
+  }
+
+  &.grey {
+  }
+
+  &.normal {
+    // background-color: rgba($color: $dark, $alpha: 0.8);
+  }
+
+  &.iconRight {
+    > svg {
+      margin-right: 0;
+      margin-left: 0.3em;
+    }
+  }
+}
+
+.Button_Wrapper_Middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.freeze {
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .Button {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Button {
+    font-size: 75%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Button {
+    font-size: 60%;
+  }
+}

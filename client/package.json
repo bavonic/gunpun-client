@@ -1,0 +1,100 @@
+{
+  "name": "gunpun-game-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "PORT=3100 react-app-rewired start",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "sync-skill": "rm -rf /Users/jasontran/vonic/gunpun-server-game/src/modules/skills/players && cp -R /Users/jasontran/vonic/gunpun-client-game/src/game-play/skills/players /Users/jasontran/vonic/gunpun-server-game/src/modules/skills/",
+    "sync-skill:watch": "nodemon --watch src/game-play/skills/players -e ts,tsx --exec 'yarn sync-skill'"
+  },
+  "dependencies": {
+    "@ion-phaser/react": "1.3.0",
+    "@reduxjs/toolkit": "1.9.3",
+    "@testing-library/jest-dom": "5.14.1",
+    "@testing-library/react": "13.0.0",
+    "@testing-library/user-event": "13.2.1",
+    "@types/jest": "27.0.1",
+    "@types/node": "16.7.13",
+    "@types/react": "18.0.0",
+    "@types/react-dom": "18.0.0",
+    "@types/react-infinite-scroller": "1.2.3",
+    "@uidotdev/usehooks": "2.0.1",
+    "@unipasswallet/ethereum-provider": "1.1.11",
+    "arcade-physics": "0.1.0",
+    "axios": "1.3.5",
+    "colyseus.js": "0.14.13",
+    "cookie-parser": "1.4.6",
+    "express-useragent": "1.0.15",
+    "firebase": "9.19.1",
+    "firebase-admin": "11.5.0",
+    "formik": "2.2.9",
+    "howler": "2.2.3",
+    "html-react-parser": "3.0.15",
+    "lottie-react": "2.4.0",
+    "nookies": "2.5.2",
+    "phaser": "3.60.0",
+    "phaser3-rex-plugins": "1.60.4",
+    "rc-slider": "10.1.1",
+    "react": "18.2.0",
+    "react-animated-css": "1.2.1",
+    "react-device-detect": "2.2.3",
+    "react-dom": "18.2.0",
+    "react-draggable": "4.4.5",
+    "react-dropzone": "14.2.3",
+    "react-fps-stats": "0.3.1",
+    "react-infinite-scroller": "1.2.6",
+    "react-json-editor-ajrm": "2.5.14",
+    "react-number-format": "4.9.3",
+    "react-redux": "8.0.5",
+    "react-router-dom": "6.9.0",
+    "react-scripts": "5.0.1",
+    "react-select": "5.7.2",
+    "react-transition-group": "4.4.5",
+    "redux": "4.2.1",
+    "redux-devtools-extension": "2.13.9",
+    "sass": "1.59.3",
+    "set-interval-async": "3.0.3",
+    "typescript": "5.0.4",
+    "web-vitals": "2.1.0",
+    "web3": "1.8.2",
+    "web3-parse-receipt-events": "1.0.2"
+  },
+  "devDependencies": {
+    "@types/howler": "2.2.7",
+    "@types/react-json-editor-ajrm": "2.5.3",
+    "@types/react-router-dom": "5.3.3",
+    "@types/react-transition-group": "4.4.5",
+    "assert": "2.0.0",
+    "buffer": "6.0.3",
+    "crypto-browserify": "3.12.0",
+    "https-browserify": "1.0.0",
+    "os-browserify": "0.3.0",
+    "process": "0.11.10",
+    "react-app-rewired": "2.2.1",
+    "stream-browserify": "3.0.0",
+    "stream-http": "3.2.0",
+    "url": "0.11.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

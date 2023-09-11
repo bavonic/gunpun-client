@@ -1,0 +1,57 @@
+.DemoPlayers {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  #DemoPlayers {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    canvas {
+      height: 100%;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .panel {
+    background: gray;
+    padding: 15px;
+
+    .form {
+      padding: 1em;
+      color: $dark;
+      width: 100%;
+
+      textarea {
+        border: 1px solid rgba($dark, 0.2);
+        width: 100%;
+        color: $dark;
+        text-shadow: none;
+        height: 300px;
+      }
+    }
+
+    .result {
+      color: $dark;
+      padding: 1em;
+      @include flexBox;
+      width: 50%;
+    }
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+
+      button {
+        width: 100%;
+        margin: 5px 0;
+      }
+    }
+  }
+}

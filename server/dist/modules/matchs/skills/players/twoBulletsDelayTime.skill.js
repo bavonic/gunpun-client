@@ -1,0 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.twoBulletsDelayTimeSkill = void 0;
+const mutilBulletsDelayTime_skill_1 = require("./mutilBulletsDelayTime.skill");
+exports.twoBulletsDelayTimeSkill = (0, mutilBulletsDelayTime_skill_1.renderMutilBulletsDelayTimeSkillInstance)({ numberOfBullet: 2, delay: 500 });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidHdvQnVsbGV0c0RlbGF5VGltZS5za2lsbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3NyYy9tb2R1bGVzL21hdGNocy9za2lsbHMvcGxheWVycy90d29CdWxsZXRzRGVsYXlUaW1lLnNraWxsLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUNBLCtFQUF5RjtBQUU1RSxRQUFBLHdCQUF3QixHQUFrQixJQUFBLHNFQUF3QyxFQUFDLEVBQUUsY0FBYyxFQUFFLENBQUMsRUFBRSxLQUFLLEVBQUUsR0FBRyxFQUFFLENBQUMsQ0FBQyJ9

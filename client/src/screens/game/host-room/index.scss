@@ -1,0 +1,246 @@
+.host-room-wrapper {
+  width: 100%;
+  height: 100%;
+  @include flexBox(flex-start, center, column);
+  background-image: url("~/public/game/assets/backgrounds/bg-game.png");
+  background-size: 100% 100%;
+
+  &__main {
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+    .host-room__teams {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      > .host-room__name {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        > .name-group {
+          position: relative;
+
+          > .name {
+            width: 10em;
+            height: 2.6em;
+            background-size: 100% 100%;
+            @include flexBox;
+            padding-left: 1em;
+            padding-right: 1em;
+            position: relative;
+
+            &--left {
+              background-image: url("~/public/game/assets/titles/team-title-blue.png");
+              justify-content: flex-start;
+              z-index: 1;
+              position: relative;
+            }
+            &--right {
+              background-image: url("~/public/game/assets/titles/team-title-red.png");
+              justify-content: flex-end;
+            }
+          }
+
+          &--left {
+            &::before {
+              content: "";
+              width: 110%;
+              height: 140%;
+              position: absolute;
+              background-image: url("~/public/game/assets/titles/title-layout-blue.png");
+              background-size: 100% 100%;
+              z-index: 0;
+            }
+          }
+
+          &--right {
+            &::before {
+              content: "";
+              width: 110%;
+              height: 140%;
+              position: absolute;
+              background-image: url("~/public/game/assets/titles/title-layout-red.png");
+              background-size: 100% 100%;
+              z-index: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .host-room__cages {
+      margin-top: 2.5em;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      gap: 2em;
+      align-items: flex-start;
+
+      > .team {
+        display: flex;
+        gap: 10px;
+        flex: 1;
+
+        .team-slot-wrapper {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1em;
+
+          > .team-slot {
+            position: relative;
+            min-height: 15em;
+            width: 100%;
+            @include flexBox;
+
+            > .character {
+              width: 90%;
+            }
+
+            &.hasUser {
+              &::after {
+                content: "";
+                width: 100%;
+                position: absolute;
+                height: 100%;
+                background: linear-gradient(
+                  to bottom,
+                  rgba(#ffffff, 0.1) 50%,
+                  transparent 50%,
+                  transparent 54%,
+                  rgba(#000000, 0) 54%
+                );
+                background-size: 100% 4px;
+              }
+            }
+
+            > .team-slot-empty {
+              width: 8em;
+            }
+
+            > .team-slot__label {
+              z-index: 1;
+              position: absolute;
+              bottom: 0;
+              width: 100%;
+              display: flex;
+              background-color: rgba($color: #0c1733, $alpha: 0.8);
+
+              > .team-slot__name {
+                flex: 1;
+                @include flexBox;
+                padding-top: 5px;
+                font-size: 12px;
+              }
+
+              > button {
+                width: 2.6em;
+                height: 2.6em;
+                background-color: #a53223;
+                @include flexBox;
+
+                > img {
+                  width: 1.5em;
+                }
+              }
+            }
+          }
+
+          > .team-slot__ready {
+            background-color: #45eb34;
+            height: 2.5em;
+            padding-left: 1em;
+            min-width: 80px;
+            padding-right: 1em;
+            border: 1px solid white;
+            border-radius: 3px;
+            font-weight: bold;
+          }
+        }
+
+        &--left {
+          .team-slot-wrapper {
+            > .team-slot {
+              background: linear-gradient(to bottom, #142963, #1f4de4);
+            }
+          }
+        }
+
+        &--right {
+          .team-slot-wrapper {
+            > .team-slot {
+              background: linear-gradient(to bottom, #8b2b20, #ef4427);
+            }
+          }
+        }
+      }
+
+      > img {
+        height: 4em;
+        margin-top: 5.5em;
+      }
+    }
+
+    .host-room__actions {
+      display: flex;
+      gap: 5em;
+      align-items: center;
+      justify-content: space-between;
+
+      > .actions-group {
+      }
+
+      > .actions__skills {
+        display: flex;
+        gap: 0.5em;
+        flex-direction: column;
+
+        > .label {
+          font-size: 0.8em;
+          font-family: Barmeno;
+        }
+
+        > .skills-list {
+          display: flex;
+          gap: 1em;
+
+          > .skills-item {
+            width: 4em;
+            height: 4em;
+            background: linear-gradient(to left, #142963, #1f4de4);
+            border-radius: 5px;
+            border: 2px solid #88fdfb;
+            position: relative;
+            @include flexBox;
+
+            &::after {
+              content: "";
+              position: absolute;
+              width: 115%;
+              height: 115%;
+              border: 1px solid #88fdfb;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+
+      > .actions-start-game {
+        margin-top: 1em;
+      }
+    }
+  }
+}
+
+.Mobile {
+  .host-room-wrapper {
+    font-size: 65%;
+  }
+}

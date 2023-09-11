@@ -1,0 +1,154 @@
+@import "../module.variables.scss";
+
+.Modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: $zIndexModal;
+  padding-top: calc(0.5em);
+  background: rgba($color: $dark, $alpha: 0.8);
+  backdrop-filter: blur(2px);
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  .modal-wrapper {
+    position: relative;
+    width: max-content;
+    min-width: 38em;
+    max-width: calc(100% - 3em);
+    margin: 0 auto;
+    filter: drop-shadow(1px 5px 5px rgba($dark, 1));
+
+    &.center {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    > div {
+      &.head {
+        position: relative;
+        @include flexBox;
+        z-index: 2;
+
+        .title {
+          height: 100%;
+          width: 300px;
+          max-width: 100%;
+          @include flexBox;
+          color: #5bfafd;
+          position: relative;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          padding: 1em 2em;
+
+          h1 {
+            font-size: 1.1em;
+          }
+        }
+
+        .btn-close {
+          position: absolute;
+          top: 50%;
+          right: 0;
+          transform: translateY(-50%);
+          height: 1.6em;
+          width: 1.6em;
+          @include flexBox;
+          cursor: pointer;
+
+          img,
+          svg {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+
+      &.body {
+        padding: 1em;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border: 3px solid #5bfafd;
+        border-radius: $borderRadius;
+        background: rgba($color: #0b2a48, $alpha: 0.8);
+        position: relative;
+
+        > * {
+          z-index: 2;
+        }
+
+        .form {
+          @include flexBox(center, center, column);
+          width: 100%;
+          padding-bottom: 1em;
+
+          > .fields {
+            width: 100%;
+
+            .InputWraper {
+              .inputSection {
+                .input {
+                  width: 100%;
+                }
+              }
+            }
+          }
+
+          > .ctas {
+            @include flexBox;
+          }
+
+          > .note {
+            text-align: center;
+            font-size: 0.9em;
+            margin-bottom: 1em;
+          }
+        }
+      }
+    }
+  }
+}
+
+$animationTime: 200ms;
+
+.ModalTransition-enter {
+  opacity: 0;
+  transform: translateY(-45px);
+}
+
+.ModalTransition-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: $animationTime;
+}
+
+.ModalTransition-exit {
+  opacity: 1;
+}
+
+.ModalTransition-exit-active {
+  opacity: 0;
+  transform: translateY(-45px);
+  transition: $animationTime;
+}
+
+.Mobile {
+  .Modal {
+    .modal-wrapper {
+      max-width: calc(100% - 1em);
+
+      > div.head {
+        position: relative;
+        z-index: 5;
+
+        .btn-close {
+          right: 0rem;
+        }
+      }
+    }
+  }
+}

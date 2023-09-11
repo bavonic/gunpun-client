@@ -1,0 +1,98 @@
+// ============================ Required Core style ================================
+$primary: #f2c611;
+$success: #88e049;
+$info: #3bffff;
+$orange: #e67e22;
+$red: #fc6351;
+$white: #fff;
+$dark: #101404;
+$offDark: #000009;
+$grey: #abadae;
+$yellow: #fff800;
+
+// =========================== Extends Color =================================
+$neon: #3ae8e2;
+$green: #baff34;
+
+// Layout
+$borderRadius: 5px;
+$borderColor: rgba($white, 0.3);
+$boxShadow: 0px 2px 5px
+  rgba(
+    $color: #000000,
+    $alpha: 0.1
+  );
+
+$inputHeight: 2.3em;
+$buttonHeight: 3.2em;
+$zIndexTableFilter: 100;
+$zIndexNotifier: 800;
+$zIndexHeader: 40;
+$zIndexModal: 50;
+// ============================ End Required Core style ============================
+
+// ============================ Project style ================================
+@mixin textBorder($colorBorder: #ffffff) {
+  text-shadow:
+    1px 0 0 $colorBorder,
+    -1px 0 0 $colorBorder,
+    0 1px 0 $colorBorder,
+    0 -1px 0 $colorBorder,
+    1px 1px $colorBorder,
+    -1px -1px 0 $colorBorder,
+    1px -1px 0 $colorBorder,
+    -1px 1px 0 $colorBorder;
+}
+@mixin flexBox($justifyContent: center, $alignItems: center, $direction: row) {
+  display: flex;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+  flex-direction: $direction;
+}
+// ============================ End Project style ============================
+
+@mixin dropShadow {
+  filter: drop-shadow(2px 3px 5px rgba($color: #000000, $alpha: 0.4));
+}
+
+@mixin background-opacity($color, $opacity: 0.3) {
+  background: $color; /* The Fallback */
+  background: rgba($color, $opacity);
+}
+
+$yellow: #fff800;
+$brown: #4f270d;
+
+:export {
+  primary: $primary;
+}
+
+// ============================ Animation style ================================
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+// ============================ End Animation style ============================

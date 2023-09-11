@@ -1,0 +1,56 @@
+@import "../../../module.variables.scss";
+
+.InputSelect {
+  display: inline-flex;
+  width: 300px;
+  max-width: 100%;
+  position: relative;
+
+  .IS {
+    &__control {
+      width: 100%;
+      background: none;
+      border: 2px solid $grey;
+
+      &--is-focused {
+        box-shadow: none;
+
+        &:hover {
+          border-color: $grey;
+        }
+      }
+
+      &:hover {
+        border-color: $grey;
+      }
+    }
+
+    &__single-value {
+      color: $white;
+    }
+
+    &__indicator-separator {
+      opacity: 0;
+    }
+
+    &__input {
+      height: $inputHeight;
+    }
+
+    &__menu {
+      z-index: 100;
+      background: rgba($color: #000000, $alpha: 0.9);
+    }
+
+    &__option {
+      &--is-focused {
+        background: rgba($color: $white, $alpha: 0.2);
+      }
+
+      &--is-selected {
+        background: $primary;
+        color: $dark;
+      }
+    }
+  }
+}

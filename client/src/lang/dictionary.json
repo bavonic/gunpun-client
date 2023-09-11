@@ -1,0 +1,1526 @@
+{
+  "filterBox": {
+    "en_US": "Filter box",
+    "ja_JP": "フィルターボックス"
+  },
+  "filterReset": {
+    "en_US": "Reset",
+    "ja_JP": "リセット"
+  },
+  "must-be-provided": {
+    "en_US": "Must be provided",
+    "ja_JP": "提供されなければなりません"
+  },
+  "MUST_BE_PROVIDED": {
+    "en_US": "Must be provided",
+    "ja_JP": "提供されなければなりません"
+  },
+  "created-at": {
+    "en_US": "Created At",
+    "ja_JP": "Thời gian"
+  },
+  "transaction-type": {
+    "en_US": "Transaction Type",
+    "ja_JP": "で作成"
+  },
+  "filter-submit": {
+    "en_US": "Apply",
+    "ja_JP": "申し込み"
+  },
+  "fetching-data": {
+    "en_US": "Fetching data...",
+    "ja_JP": "データの取得..."
+  },
+  "error": {
+    "en_US": "Error",
+    "ja_JP": "エラー"
+  },
+  "no-data": {
+    "en_US": "No data",
+    "ja_JP": "データなし"
+  },
+  "total": {
+    "en_US": "Total",
+    "ja_JP": "合計"
+  },
+  "loading-search-result": {
+    "en_US": "Fetching search result",
+    "ja_JP": "検索結果を取得する"
+  },
+  "account": {
+    "en_US": "Account",
+    "ja_JP": "アカウント"
+  },
+  "history": {
+    "en_US": "History",
+    "ja_JP": "Lịch sử"
+  },
+  "view-detail": {
+    "en_US": "View Detail",
+    "ja_JP": "詳細を表示"
+  },
+  "Remove": {
+    "en_US": "Remove",
+    "ja_JP": "Xoá"
+  },
+  "status": {
+    "en_US": "Status",
+    "ja_JP": "Trạng thái"
+  },
+  "completed": {
+    "en_US": "Completed",
+    "ja_JP": "Hoàn thành"
+  },
+  "errored": {
+    "en_US": "Errored",
+    "ja_JP": "エラー"
+  },
+  "success": {
+    "en_US": "Successful!",
+    "ja_JP": "成功"
+  },
+  "Information": {
+    "en_US": "Information",
+    "ja_JP": "情報"
+  },
+  "Select Another": {
+    "en_US": "Select Another",
+    "ja_JP": "別のを選択してください"
+  },
+  "Comming soon": {
+    "en_US": "Comming soon!",
+    "ja_JP": "カミングスーン"
+  },
+  "amount": {
+    "en_US": "Amount",
+    "ja_JP": "額"
+  },
+  "receiver-address": {
+    "en_US": "Receiver address",
+    "ja_JP": "Địa chỉ người nhận"
+  },
+  "validate-max-transfer-money-amount": {
+    "en_US": "Not enough balance to transfer",
+    "ja_JP": "Không đủ số dư để chuyển"
+  },
+  "transfer-money": {
+    "en_US": "Transfer {token}",
+    "ja_JP": "Chuyển {token}"
+  },
+  "send": {
+    "en_US": "Send",
+    "ja_JP": "Gửi"
+  },
+  "error-wait-sync-data-account-to-server": {
+    "en_US": "Syncing account data. Please come back in 3 minutes",
+    "ja_JP": "Đang đồng bộ thông tin của bạn. Vui lòng quay lại sau 3 phút"
+  },
+  "syncing-account-data": {
+    "en_US": "Syncing account data...",
+    "ja_JP": "Đang đồng bộ thông tin của bạn..."
+  },
+  "you-dont-have-children-network-yet": {
+    "en_US": "You do not have any members in your network",
+    "ja_JP": "Bạn chưa có thành viên trong hệ thống của bạn"
+  },
+  "tree-view-search-placeholder": {
+    "en_US": "Type to search",
+    "ja_JP": "検索するタイプ"
+  },
+  "level": {
+    "en_US": "Level",
+    "ja_JP": "レベル"
+  },
+  "Unsuccessful": {
+    "en_US": "Unsuccessful!",
+    "ja_JP": "失敗しました"
+  },
+  "Approval falied": {
+    "en_US": "Approval falied",
+    "ja_JP": "承認が失敗しました"
+  },
+  "Load More": {
+    "en_US": "Load More",
+    "ja_JP": "もっと読み込む"
+  },
+  "optional": {
+    "en_US": "Optional",
+    "ja_JP": "オプション"
+  },
+  "PAY": {
+    "en_US": "Pay",
+    "ja_JP": "Thanh toán"
+  },
+  "APPROVE": {
+    "en_US": "Approve",
+    "ja_JP": "承認"
+  },
+  "ERC20_SEND_TRANSFER": {
+    "en_US": "ERC20 send transfer",
+    "ja_JP": "ERC20 Chuyển tiền"
+  },
+  "ERC20_RECEIVE_TRANSFER": {
+    "en_US": "ERC20 receive transfer",
+    "ja_JP": "ERC20 Nhận tiền"
+  },
+  "RECEIVE_TICKET_FROM_FARM": {
+    "en_US": "Receive Ticket from farm",
+    "ja_JP": "Nhận Ticket từ farm"
+  },
+  "ERC721_SEND_TRANSFER": {
+    "en_US": "ERC721 send transfer",
+    "ja_JP": "ERC721 gửi tiền"
+  },
+  "ERC721_RECEIVE_TRANSFER": {
+    "en_US": "ERC721 receive transfer",
+    "ja_JP": "ERC721 nhận tiền"
+  },
+  "UPGRADE": {
+    "en_US": "Upgrade",
+    "ja_JP": "Nâng cấp"
+  },
+  "BUY": {
+    "en_US": "Buy",
+    "ja_JP": "買う"
+  },
+  "Buy Token": {
+    "en_US": "BUY TOKEN",
+    "ja_JP": "買う"
+  },
+  "SELL": {
+    "en_US": "Sell",
+    "ja_JP": "売る"
+  },
+  "Account": {
+    "en_US": "Account",
+    "ja_JP": "Tài khoản"
+  },
+  "Contact": {
+    "en_US": "Contact",
+    "ja_JP": "Liên hệ"
+  },
+  "Total Asset Value": {
+    "en_US": "Total Asset Value",
+    "ja_JP": "Tổng tài sản"
+  },
+  "Asset Value": {
+    "en_US": "Asset Value",
+    "ja_JP": "Tài sản"
+  },
+  "My Network": {
+    "en_US": "My Network",
+    "ja_JP": "私のネットワーク"
+  },
+  "Settings": {
+    "en_US": "Settings",
+    "ja_JP": "設定"
+  },
+  "Go Back": {
+    "en_US": "Go Back",
+    "ja_JP": "戻る"
+  },
+  "Back": {
+    "en_US": "Go Back",
+    "ja_JP": "戻る"
+  },
+  "We need connect to network": {
+    "en_US": "We need connect to network",
+    "ja_JP": "ネットワークに接続する必要があります"
+  },
+  "Unfortunately, We meet error when intialize game.": {
+    "en_US": "Unfortunately, We meet error when intialize game.",
+    "ja_JP": "Thật không may, chúng tôi gặp phải lỗi khi khởi tạo trò chơi."
+  },
+  "Load game data": {
+    "en_US": "Load game data",
+    "ja_JP": "Tải dữ liệu trò chơi"
+  },
+  "Closed": {
+    "en_US": "Closed",
+    "ja_JP": "Đã đóng"
+  },
+  "Connect wallet to Enjoy!": {
+    "en_US": "Connect wallet to Enjoy!",
+    "ja_JP": "ウォレットを接続してお楽しみください！"
+  },
+  "Farm Now": {
+    "en_US": "Farm Now",
+    "ja_JP": "Đầu Tư"
+  },
+  "Shop Now": {
+    "en_US": "Shop Now",
+    "ja_JP": "Cửa Hàng"
+  },
+  "View Details": {
+    "en_US": "View Details",
+    "ja_JP": "Xem chi tiết"
+  },
+  "News": {
+    "en_US": "News",
+    "ja_JP": "Tin tức"
+  },
+  "Close": {
+    "en_US": "Close",
+    "ja_JP": "閉じる"
+  },
+  "Rewards": {
+    "en_US": "Rewards",
+    "ja_JP": "Phần thưởng"
+  },
+  "Treasures": {
+    "en_US": "Treasures",
+    "ja_JP": "Kho báo"
+  },
+  "Approve": {
+    "en_US": "Approve",
+    "ja_JP": "Xác nhận"
+  },
+  "Time": {
+    "en_US": "Time",
+    "ja_JP": "Thời gian"
+  },
+  "Transaction": {
+    "en_US": "Transaction",
+    "ja_JP": "Giao dịch"
+  },
+  "Withdraw": {
+    "en_US": "Withdraw",
+    "ja_JP": "Rút"
+  },
+  "Claim": {
+    "en_US": "Claim",
+    "ja_JP": "Nhận"
+  },
+  "Claim rewards": {
+    "en_US": "Claim rewards",
+    "ja_JP": "Nhận thưởng"
+  },
+  "Contract": {
+    "en_US": "Contract",
+    "ja_JP": "Hợp đồng"
+  },
+  "Balance": {
+    "en_US": "Balance",
+    "ja_JP": "Số dư"
+  },
+  "Confirm": {
+    "en_US": "Confirm",
+    "ja_JP": "Xác nhận"
+  },
+  "Transfer": {
+    "en_US": "Transfer",
+    "ja_JP": "Chuyển"
+  },
+  "Day": {
+    "en_US": "Day",
+    "ja_JP": "日"
+  },
+  "Reports": {
+    "en_US": "Reports",
+    "ja_JP": "Báo cáo"
+  },
+  "Pool": {
+    "en_US": "Pool",
+    "ja_JP": "Máy đào"
+  },
+  "deposit-now": {
+    "en_US": "Deposit Now",
+    "ja_JP": "Nạp tiền ngay"
+  },
+  "Fund": {
+    "en_US": "Fund",
+    "ja_JP": "Ngân quỹ"
+  },
+  "View Contract": {
+    "en_US": "View Contract",
+    "ja_JP": "Xem Hợp Đồng"
+  },
+  "See Pair Info": {
+    "en_US": "See Pair Info",
+    "ja_JP": "Xem Thông Tin Cặp Tiền"
+  },
+  "Get": {
+    "en_US": "Get",
+    "ja_JP": "Nhận"
+  },
+  "Amount": {
+    "en_US": "Amount",
+    "ja_JP": "Số lượng"
+  },
+  "View More": {
+    "en_US": "View More",
+    "ja_JP": "Xem Thêm"
+  },
+  "Activities": {
+    "en_US": "Activities",
+    "ja_JP": "Hoạt động"
+  },
+  "Your balance is not enough": {
+    "en_US": "Your balance is not enough",
+    "ja_JP": "Số dư không đủ"
+  },
+  "Description": {
+    "en_US": "Description",
+    "ja_JP": "Mô tả"
+  },
+  "Price": {
+    "en_US": "Price",
+    "ja_JP": "価格"
+  },
+  "Pay": {
+    "en_US": "Pay",
+    "ja_JP": "Thanh toán"
+  },
+  "Buy Now": {
+    "en_US": "Buy Now",
+    "ja_JP": "買う"
+  },
+  "Buy": {
+    "en_US": "Buy",
+    "ja_JP": "買う"
+  },
+  "Presenter's Address": {
+    "en_US": "Presenter's Address",
+    "ja_JP": "Địa chỉ người giới thiệu"
+  },
+  "pool-deposit-pool-register-description": {
+    "en_US": "This is your first time participating in investing. You can enter the referrer address. Default will be root. It's unable to update later",
+    "ja_JP": "Đây là lần đầu tiên bạn tham gia đầu tư. Bạn có thể nhập địa chỉ của người giới thiệu. Mặc định sẽ là root. Nó không thể cập nhật sau"
+  },
+  "Earn": {
+    "en_US": "Earn",
+    "ja_JP": "Sản phẩm"
+  },
+  "Stake": {
+    "en_US": "Stake",
+    "ja_JP": "Nạp cổ phần"
+  },
+  "Invested": {
+    "en_US": "Invested",
+    "ja_JP": "Số đầu tư"
+  },
+  "Action failed.": {
+    "en_US": "Action failed.",
+    "ja_JP": "Thao tác không thành công"
+  },
+  "successfully": {
+    "en_US": "Successfully!",
+    "ja_JP": "正常に!"
+  },
+  "failed": {
+    "en_US": "Failed",
+    "ja_JP": "失敗した"
+  },
+  "Harvest": {
+    "en_US": "Harvest",
+    "ja_JP": "Thu thập"
+  },
+  "Daily Reward": {
+    "en_US": "Daily Reward",
+    "ja_JP": "Thu nhập mỗi ngày"
+  },
+  "Total Value Locked": {
+    "en_US": "Total Value Locked",
+    "ja_JP": "Tổng giá trị đã khóa"
+  },
+  "not_auth": {
+    "en_US": "You are not authorized, please contact support team.",
+    "ja_JP": "Bạn chưa được cấp quyền, vui lòng liên hệ đội hỗ trợ."
+  },
+  "pending_reward_fee": {
+    "en_US": "Your fee claim is {percent} = {fee} SIM. Next {nextDay} it's free 0%.",
+    "ja_JP": "Phí nhận thưởng là {percent} = {fee} SIM. Sau {nextDay} bạn sẽ được miễn phí rút."
+  },
+  "pending_reward_fee_without_day": {
+    "en_US": "Your fee claim is {percent} = {fee} SIM.",
+    "ja_JP": "Phí nhận thưởng là {percent} = {fee} SIM."
+  },
+  "pending_reward_not_time_to_claim": {
+    "en_US": "It's not time to claim, please come back tomorrow!",
+    "ja_JP": "Chưa đến thời gian nhận thưởng, bạn vui lòng quay lại vào ngày mai!"
+  },
+  "Quantity": {
+    "en_US": "Quantity",
+    "ja_JP": "Số lượng"
+  },
+  "Your SIM rewards is not enough": {
+    "en_US": "Your SIM rewards is not enough",
+    "ja_JP": "SIM rewards của bạn không đủ"
+  },
+  "Your SIMs is not enough": {
+    "en_US": "Your SIMs is not enough",
+    "ja_JP": "SIMs của bạn không đủ"
+  },
+  "DEPOSIT": {
+    "en_US": "Deposit",
+    "ja_JP": "Nạp tiền"
+  },
+  "WITHDRAW": {
+    "en_US": "Withdraw",
+    "ja_JP": "Rút tiền"
+  },
+  "TRANSFER": {
+    "en_US": "Transfer",
+    "ja_JP": "Transfer"
+  },
+  "BUY_PACKAGE": {
+    "en_US": "Buy package",
+    "ja_JP": "Mua gói"
+  },
+  "SELL_PET": {
+    "en_US": "Sell Pet",
+    "ja_JP": "Bán Pet"
+  },
+  "SYSTEM_COMMISSION": {
+    "en_US": "System commission",
+    "ja_JP": "Hoa hồng hệ thống"
+  },
+  "DIRECT_COMMISSION": {
+    "en_US": "Direct commission",
+    "ja_JP": "Hoa hồng trực tiếp"
+  },
+  "SEND_TRANSFER": {
+    "en_US": "Send transfer",
+    "ja_JP": "Gửi tiền"
+  },
+  "RECEIVE_TRANSFER": {
+    "en_US": "Receive transfer",
+    "ja_JP": "Phí chuyển"
+  },
+  "RECEIVE_WITHDRAW_FEE": {
+    "en_US": "Receive withdraw fee",
+    "ja_JP": "Phí rút"
+  },
+  "your-system-balance": {
+    "en_US": "System balance",
+    "ja_JP": "Số dư"
+  },
+  "your-wallet-balance": {
+    "en_US": "Wallet balance",
+    "ja_JP": "Số dư ví"
+  },
+  "wallet-balance-not-enough": {
+    "en_US": "Wallet balance not enough to deposit!",
+    "ja_JP": "Số dư ví không đủ"
+  },
+  "system-balance-not-enough-to-withdraw": {
+    "en_US": "System balance not enough to withdraw!",
+    "ja_JP": "Số dư tài khoản hệ thống không đủ!"
+  },
+  "fee": {
+    "en_US": "Fee",
+    "ja_JP": "手数料"
+  },
+  "Affiliate": {
+    "en_US": "Affiliate",
+    "ja_JP": "Affiliate"
+  },
+  "Pet Information": {
+    "en_US": "Pet Information",
+    "ja_JP": "Thông tin Pet"
+  },
+  "actually-received": {
+    "en_US": "Actually received",
+    "ja_JP": "Thực nhận"
+  },
+  "receiverAddress": {
+    "en_US": "Receiver address",
+    "ja_JP": "受信者アドレス"
+  },
+  "presenterAddress": {
+    "en_US": "Presenter address",
+    "ja_JP": "プレゼンターの住所"
+  },
+  "system-balance-not-enough-to-buy-package": {
+    "en_US": "Your balance not enough to buy package",
+    "ja_JP": "Số dư không đủ để mua gói"
+  },
+  "register-description": {
+    "en_US": "You will register with affiliate code",
+    "ja_JP": "アフィリエイトコードで登録します"
+  },
+  "register-title": {
+    "en_US": "Register to Enjoy Game!",
+    "ja_JP": "ゲームを楽しむために登録してください！"
+  },
+  "register": {
+    "en_US": "Register",
+    "ja_JP": "登録"
+  },
+  "profit-per-day": {
+    "en_US": "New earnings - {value}. Surprise?",
+    "ja_JP": "\"Lúa\" lại về - {value}. Bạn thấy sao nào?"
+  },
+  "upgrade-pet": {
+    "en_US": "Upgrade Pet",
+    "ja_JP": "Nâng cấp Pet"
+  },
+  "number-report-withdrew": {
+    "en_US": "Total withdrew",
+    "ja_JP": "Tổng tiền đã rút"
+  },
+  "number-report-deposited": {
+    "en_US": "Total deposited",
+    "ja_JP": "Tổng tiền đã nạp"
+  },
+  "number-report-invested": {
+    "en_US": "Total invested",
+    "ja_JP": "Tổng tiền đã đầu tư"
+  },
+  "number-report-investor": {
+    "en_US": "Total investor",
+    "ja_JP": "Tổng thành viên trong hệ thống"
+  },
+  "Sell Pet": {
+    "en_US": "Sell Pet",
+    "ja_JP": "Bán Pet"
+  },
+  "not-enough-pet": {
+    "en_US": "Not enough Pets",
+    "ja_JP": "Không đủ Pets"
+  },
+  "number-report-commission": {
+    "en_US": "Total commission",
+    "ja_JP": "Tổng hoa hồng nhận được"
+  },
+  "number-report-revenue": {
+    "en_US": "Total revenue",
+    "ja_JP": "Tổng doanh số"
+  },
+  "number-report-bestBranchRevenue": {
+    "en_US": "Total best branch revenue",
+    "ja_JP": "Doanh số nhánh mạnh"
+  },
+  "number-report-userInvested": {
+    "en_US": "Total user invested",
+    "ja_JP": "Tổng số user đã invest"
+  },
+  "number-report-userRegistered": {
+    "en_US": "Total user",
+    "ja_JP": "Tổng số user đăng ký"
+  },
+  "number-report-bestBranchAddress": {
+    "en_US": "Best branch address",
+    "ja_JP": "Địa chỉ con xuất sắc nhất"
+  },
+  "rank": {
+    "en_US": "Rank",
+    "ja_JP": "Xếp hạng"
+  },
+  "revenue": {
+    "en_US": "Revenue",
+    "ja_JP": "Doanh thu"
+  },
+  "invest-status-active": {
+    "en_US": "Invested",
+    "ja_JP": "Đã mua gói"
+  },
+  "invest-status-waiting": {
+    "en_US": "Not invest yet",
+    "ja_JP": "Chưa mua gói"
+  },
+  "upgrade-result-success": {
+    "en_US": "You have successfully merge {count} {petCurrentName} pairs, received <strong><span>x{count} {petNextName} </span> level <span>{level}</span></strong>",
+    "ja_JP": "Bạn đã hợp nhất thành công {count} cặp {petCurrentName}, đã nhận được <strong><span>x{count} {petNextName} </span> cấp <span>{level}</span></strong>"
+  },
+  "upgrade-result-failed": {
+    "en_US": "Failed pairing with {count} {petName} pairs, you <strong>lost <span>x{count} {petName} </span> level <span>{level}</span></strong>",
+    "ja_JP": "Ghép {count} cặp {petName} thất bại, bạn <strong>mất <span>x{count} {petName} </span> cấp <span>{level}</span></strong>"
+  },
+  "Congratulations": {
+    "en_US": "Congratulations",
+    "ja_JP": "Chúc mừng bạn"
+  },
+  "Unfortunately": {
+    "en_US": "Unfortunately",
+    "ja_JP": "Thật không may"
+  },
+  "Load game settings": {
+    "en_US": "Load game settings",
+    "ja_JP": "Tải thiết lập"
+  },
+  "Inialize Smart Contract": {
+    "en_US": "Inialize Smart Contract",
+    "ja_JP": "Khởi tạo Smart Contract"
+  },
+  "Get your information": {
+    "en_US": "Get your information",
+    "ja_JP": "Tải thông tin tài khoản"
+  },
+  "Initialize the game": {
+    "en_US": "Initialize the game",
+    "ja_JP": "Khởi tạo trò chơi"
+  },
+  "Okey, Fine!": {
+    "en_US": "Okey, Fine!",
+    "ja_JP": "Okey, tui ổn!"
+  },
+  "Packages": {
+    "en_US": "Packages",
+    "ja_JP": "Gói"
+  },
+  "transfer-pet": {
+    "en_US": "Transfer Pet",
+    "ja_JP": "Chuyển Pet"
+  },
+  "Your packages": {
+    "en_US": "Your Boxes",
+    "ja_JP": "Hộp của bạn"
+  },
+  "Multiple upgrade": {
+    "en_US": "Multiple upgrade",
+    "ja_JP": "Nâng cấp hàng loạt"
+  },
+  "message-upgrade-pet": {
+    "en_US": "Bravo! 1 more step to go! Fuse us to gain the higher level guy - THE ... <strong>{nextLevelName}</strong>. How fascinating!",
+    "ja_JP": "Nhanh nào! Chỉ 1 bước nữa thôi. Cùng ghép 2 nhân vật này lại để thu về một anh chàng cấp bậc cao hơn - ... <strong>{nextLevelName}</strong>"
+  },
+  "receive-money": {
+    "en_US": "Receive {value}",
+    "ja_JP": ""
+  },
+  "Buy package to received many Pet everyday": {
+    "en_US": "Buy boxes to received many Pet everyday!",
+    "ja_JP": "Mua hộp để nhận Pet mỗi ngày!"
+  },
+  "Go Store": {
+    "en_US": "Go Store",
+    "ja_JP": "Đến Cửa Hàng"
+  },
+  "Your balance": {
+    "en_US": "Your balance",
+    "ja_JP": "Số dư"
+  },
+  "Transactions": {
+    "en_US": "Transactions",
+    "ja_JP": "Giao dịch"
+  },
+  "Wallet Information": {
+    "en_US": "Wallet Information",
+    "ja_JP": "Thông tin ví"
+  },
+  "View Transaction": {
+    "en_US": "View Transaction",
+    "ja_JP": "Xem giao dịch"
+  },
+  "Invalid address": {
+    "en_US": "Invalid address",
+    "ja_JP": "Địa chỉ ví không đúng"
+  },
+  "Filter by level": {
+    "en_US": "Filter by level",
+    "ja_JP": "Lọc theo cấp độ"
+  },
+  "All": {
+    "en_US": "All",
+    "ja_JP": "Tất cả"
+  },
+  "Sell Pet succesfully": {
+    "en_US": "Sell Pet succesfully",
+    "ja_JP": "Bán Pet thành công"
+  },
+  "NOT_ENOUGH_ANIM": {
+    "en_US": "Not enough Pet",
+    "ja_JP": "Không đủ Pet"
+  },
+  "DISABLED_PACKAGE": {
+    "en_US": "Disabled package",
+    "ja_JP": "Gói đã đóng"
+  },
+  "INVALID_PACKAGE_ID": {
+    "en_US": "Invalid package",
+    "ja_JP": "Gói không hợp lệ"
+  },
+  "TOO_MANY_PACKAGES": {
+    "en_US": "Too many packages",
+    "ja_JP": "Bạn đã mua quá nhiều gói"
+  },
+  "INSUFFICIENT_FUNDS": {
+    "en_US": "Insufficient funds",
+    "ja_JP": "Quỹ không hiệu quả"
+  },
+  "INVALID_NUMBER_OF_ANIMS": {
+    "en_US": "Invalid number of Pets",
+    "ja_JP": "Số lượng Pets không hợp lệ"
+  },
+  "INVALID_LEVEL": {
+    "en_US": "Invalid level",
+    "ja_JP": "Cấp độ không hợp lệ"
+  },
+  "INVALID_PRESENTER": {
+    "en_US": "Invalid presenter",
+    "ja_JP": "Người giới thiệu không hợp lệ"
+  },
+  "INVALID_TO_ADDRESS": {
+    "en_US": "Invalid receiver address",
+    "ja_JP": "Người nhận không hợp lệ"
+  },
+  "PRESENTER_DOES_NOT_EXISTS": {
+    "en_US": "The referrer's address is not registered.",
+    "ja_JP": "Địa chỉ người giới thiệu chưa đăng ký."
+  },
+  "ADDRESS_IS_USED": {
+    "en_US": "Address is used",
+    "ja_JP": "Địa chỉ đã dùng"
+  },
+  "ONLY_INVESTED_CAN_PRESENT": {
+    "en_US": "Only invested can present",
+    "ja_JP": "Người giới thiệu chưa đầu tư"
+  },
+  "SELL_ANIM": {
+    "en_US": "Sell Pet",
+    "ja_JP": "Bán Pet"
+  },
+  "limit-package-alert": {
+    "en_US": "Each account can only buy a maximum of {max} packs!",
+    "ja_JP": "Mỗi tài khoản chỉ được mua tối đa {max} gói!"
+  },
+  "about": {
+    "en_US": "About",
+    "ja_JP": "だいたい"
+  },
+  "roadmap": {
+    "en_US": "Roadmap",
+    "ja_JP": "ロードマップ"
+  },
+  "game": {
+    "en_US": "game",
+    "ja_JP": "ゲーム"
+  },
+  "Revolutionize": {
+    "en_US": "Revolutionize",
+    "ja_JP": "新しい革命は"
+  },
+  "Click to earn games": {
+    "en_US": "Click to earn games",
+    "ja_JP": "クリックして獲得"
+  },
+  "landing-page-title": {
+    "en_US": "Revolutionize </br> Click to earn games",
+    "ja_JP": "新しい革命は </br> クリックして獲得"
+  },
+  "landing-page-sub-title": {
+    "en_US": "MangaMon Metaverse is a GameFi ecosystem built exclusively for Fans on the Fantom blockchain",
+    "ja_JP": "私たちは、すべての長期的なプレイヤーに報いるバランスの取れたゲーム経済を構築します"
+  },
+  "switch-language": {
+    "en_US": "Switch Language",
+    "ja_JP": "言語を切り替える"
+  },
+  "About Game": {
+    "en_US": "About Game",
+    "ja_JP": "ゲームとは"
+  },
+  "WHY MANGAMON?": {
+    "en_US": "WHY MANGAMON?",
+    "ja_JP": "マンガモンなど?"
+  },
+  "why-content-1-title": {
+    "en_US": "One NFT for all games",
+    "ja_JP": "NFTでは色々なゲームを遊ぶ?"
+  },
+  "why-content-1-description": {
+    "en_US": "Fully scalable gaming metaverse where you can transfer your achievements in the old game into a new game in the MangaMon Metaverse.",
+    "ja_JP": "古いゲームでの成果をマンの新しいゲームに転送できる完全にスケーラブルなメタバース"
+  },
+  "why-content-2-title": {
+    "en_US": "Many ways to earn",
+    "ja_JP": "稼ぎ方も多い"
+  },
+  "why-content-2-description": {
+    "en_US": "When joining the MangaMon metaverse, user have at least 3 methods to earn sus-tainable income: Invite-to-earn, up-grade-to-earn and play to earn.",
+    "ja_JP": "マンガモンメタバースに参加するとき、ユーザーは持続可能な収入を得るために少なくとも三つの方法があります：招待する、アップグレードする、そして遊ぶと稼ぐ"
+  },
+  "why-content-3-title": {
+    "en_US": "Balanced reward system",
+    "ja_JP": "バランスの"
+  },
+  "why-content-3-description": {
+    "en_US": "Our top priority is helping players earn sustainable income for years to come and also enjoying better gameplay and graphics over the time.",
+    "ja_JP": "私たちの最優先事項は、プレイヤーが今後何年にもわたって持続可能な収入を得るのを助け、また時間の経過とともにより良いゲームプレイとグラフィックスを楽しむことです"
+  },
+  "ABOUT CHARACTER": {
+    "en_US": "CHARACTERS",
+    "ja_JP": "キャラクタ"
+  },
+  "about-character-description": {
+    "en_US": "There will be 6 tribes of eggs based on their costume colors: Red, blue, Green, Yellow, Black, Brow. Each tribe will have 10 classes with special skill, power and rarity",
+    "ja_JP": "衣装の色に基づいて、卵の6つの部族があります：赤、青、緑、黄色、黒、眉。 各部族には、特別なスキル、パワー、希少性を備えた、10クラスがあります"
+  },
+  "THE MAN TOKEN": {
+    "en_US": "THE $MAN TOKEN",
+    "ja_JP": "マントーケン"
+  },
+  "THE MON TOKEN": {
+    "en_US": "THE $MON TOKEN",
+    "ja_JP": "モントーケン"
+  },
+  "airdrop-steps-title": {
+    "en_US": "Complete these steps to join the Spin Drop",
+    "ja_JP": "スピンドロップに参加するには、これらの手順を完了してください"
+  },
+  "Step": {
+    "en_US": "Step",
+    "ja_JP": "ステップ"
+  },
+  "About Characters": {
+    "en_US": "About Characters",
+    "ja_JP": "キャラクターについて"
+  },
+  "Lucky Drop": {
+    "en_US": "Lucky Drop",
+    "ja_JP": "ラッキードロー"
+  },
+  "Tokenomics": {
+    "en_US": "Tokenomics",
+    "ja_JP": "トケノミクス"
+  },
+  "not-enough-balance": {
+    "en_US": "Not enough balance",
+    "ja_JP": "バランスが悪い"
+  },
+  "Game Play": {
+    "en_US": "Gameplay",
+    "ja_JP": "ゲームプレイ"
+  },
+  "IDO": {
+    "en_US": "IDO",
+    "ja_JP": "IDO"
+  },
+  "SpinDrop": {
+    "en_US": "SpinDrop",
+    "ja_JP": "スピン"
+  },
+  "Section about description": {
+    "en_US": "We recreate popular games from the last two decades which helps users feel truly relaxed and have fun playing games in the MangaMon Metaverse.",
+    "ja_JP": "過去20年間の人気ゲームを再現し、ユーザーが心からリラックスしてメタバースでゲームを楽しめるようにしている。"
+  },
+  "alert-title-failed": {
+    "en_US": "Action Failed!",
+    "ja_JP": "アクションに失敗しました！"
+  },
+  "alert-user-transaction-rejected": {
+    "en_US": "You have declined the transaction",
+    "ja_JP": "取引を拒否しました"
+  },
+  "alert-unknow-error": {
+    "en_US": "Some thing went wrong",
+    "ja_JP": "何かがうまくいかなかった"
+  },
+  "view-transaction": {
+    "en_US": "View Transaction",
+    "ja_JP": "トランザクションを表示"
+  },
+  "chacter-title-description": {
+    "en_US": "There will be 6 Tribes of Eggs: Calcifer, Nitonami, Akihiro, Ryuu, Nito, Markl",
+    "ja_JP": "卵の種族は6種類になります。カルシファー、ニトナミ、アキヒロ、リュウ、ニト、マークル。"
+  },
+  "contract address": {
+    "en_US": "CONTRACT ADDRESS",
+    "ja_JP": "コントラクト・アッドレス"
+  },
+  "co-founder": {
+    "en_US": "CO-FOUNDER/ CEO",
+    "ja_JP": "共同創業者/CEO"
+  },
+  "community-cmo": {
+    "en_US": "COMMUNITY/ MARKETING CMO",
+    "ja_JP": "コミュニテー /マーケティング CMO"
+  },
+  "co-coo": {
+    "en_US": "CO-FOUNDER/CTO",
+    "ja_JP": "共同創業者/CTO"
+  },
+  "game-producer": {
+    "en_US": "GAME PRODUCER",
+    "ja_JP": "ゲームメーカー"
+  },
+  "technical-director": {
+    "en_US": "TECHNICAL DIRECTOR",
+    "ja_JP": "テクニカル・ディレクター"
+  },
+  "creative-director": {
+    "en_US": "CREATIVE DIRECTOR",
+    "ja_JP": "クリエイティブ・ディレクター"
+  },
+  "will-receive": {
+    "en_US": "When Spining You Will Receive",
+    "ja_JP": "スピニング加工をすると、以下のような特典がある。"
+  },
+  "random-receive": {
+    "en_US": "And one of these gifts below",
+    "ja_JP": "そして、以下の中から一つプレゼント"
+  },
+  "airdrop-warning-1": {
+    "en_US": "Please not that when there are no additional gifts left, you will only receive",
+    "ja_JP": "追加のギフトが残っていない場合、スピンで受け取るのは"
+  },
+  "airdrop-warning-2": {
+    "en_US": "in one spin.",
+    "ja_JP": "のみとなるので、ご注意ください。"
+  },
+  "receive-link": {
+    "en_US": "YOU WILL RECEIVE A REFERRAL LINK AFTER SPINNING.",
+    "ja_JP": "スピン後に紹介リンクが表示される。"
+  },
+  "share-receive-link": {
+    "en_US": "SHARE YOUR REFERRAL LINK TO RECEIVE UP TO 35% COMMISION!",
+    "ja_JP": "あなたの紹介リンクをシェアすると、最大35%のコミッションを受け取ることができる。"
+  },
+  "share-receive-link-15": {
+    "en_US": "20% airdrop commission for Level 1 (direct referral).",
+    "ja_JP": "レベル 1（直接紹介）の場合、25%のエアドロップ・コミッション。"
+  },
+  "share-receive-link-5-lv2": {
+    "en_US": "10% airdrop commission for Level 2.",
+    "ja_JP": "レベル2のエアドロップ手数料过は10%です。"
+  },
+  "share-receive-link-5-lv3": {
+    "en_US": "5% airdrop commission for Level 3.",
+    "ja_JP": "レベル3のエアドロップ手数料过は5%です。"
+  },
+  "inviter address": {
+    "en_US": "Inviter's Address",
+    "ja_JP": "招待者の住所"
+  },
+  "spin": {
+    "en_US": "Spin Now!",
+    "ja_JP": "スピン"
+  },
+  "warning-steps-airdrop": {
+    "en_US": "Please click and follow all the 6 steps above. When you have finished the 6 steps, you can press the “Spin” button to join Spin Drop.",
+    "ja_JP": "上記6つのステップをすべてクリックし、従ってください。6つのステップが終了したら、「Spin」ボタンを押して「Spin Drop」に参加してください。"
+  },
+  "INVALID_JSON_RPC_ERROR": {
+    "en_US": "MetaMask is having trouble connecting to the network",
+    "ja_JP": "MetaMaskがネットワークへの接続に問題を抱えています"
+  },
+  "our team": {
+    "en_US": "OUR TEAM",
+    "ja_JP": "チームのメンバー"
+  },
+  "partner-media": {
+    "en_US": "PARTNERS & MEDIA",
+    "ja_JP": "パートナーとメディア"
+  },
+  "join with us": {
+    "en_US": "JOIN WITH US",
+    "ja_JP": "私たちと一緒に参加する"
+  },
+  "FREE FOR FANS": {
+    "en_US": "FREE FOR FANS",
+    "ja_JP": "フリー・フォー・ファン"
+  },
+  "potion": {
+    "en_US": "Potion",
+    "ja_JP": "ポーション"
+  },
+  "connect your wallet": {
+    "en_US": "Connect your Wallet to Enjoy!",
+    "ja_JP": "ウォレットを接続して楽しみにする!"
+  },
+  "connect wallet": {
+    "en_US": "Connect Wallet",
+    "ja_JP": "財布を接続する"
+  },
+  "Fetching your information": {
+    "en_US": "Fetching your information",
+    "ja_JP": "情報を取得する"
+  },
+  "select to connect wallet": {
+    "en_US": "Select a wallet to connect",
+    "ja_JP": "ウォレットを選んで接続する。"
+  },
+  "We just sent a request": {
+    "en_US": "We just sent a request, please check your Wallet App!",
+    "ja_JP": "リクエストを送信しました。ウォレットアプリを確認してください。"
+  },
+  "What is a wallet": {
+    "en_US": "What is a wallet",
+    "ja_JP": "ウォレットとは。"
+  },
+  "You have claimed successfully": {
+    "en_US": "YOU HAVE CLAIMED SUCCESSFULLY!",
+    "ja_JP": "あなたは首尾よく主張しました！"
+  },
+  "We can't get the information of your reward": {
+    "en_US": "We can't get the information of your reward.",
+    "ja_JP": "報酬の情報を取得できません。"
+  },
+  "Your rewards": {
+    "en_US": "Your rewards",
+    "ja_JP": "あなたの報酬"
+  },
+  "Referral leaderboard": {
+    "en_US": "REFERRAL LEADERBOARD",
+    "ja_JP": "紹介リーダーボード"
+  },
+  "Share your link to win the ranking": {
+    "en_US": "Share your link to win the ranking",
+    "ja_JP": "リンクを共有してランキングを獲得する"
+  },
+  "your ranks": {
+    "en_US": "Your rank",
+    "ja_JP": "あなたのランキング"
+  },
+  "story": {
+    "en_US": "Story",
+    "ja_JP": "ストーリー"
+  },
+  "strength": {
+    "en_US": "Strength",
+    "ja_JP": "体力"
+  },
+  "health": {
+    "en_US": "Health",
+    "ja_JP": "ヘルス"
+  },
+  "intelligence": {
+    "en_US": "Intelligence",
+    "ja_JP": "インテリジェンス"
+  },
+  "mana": {
+    "en_US": "Mana Point",
+    "ja_JP": "マナポイント"
+  },
+  "defense": {
+    "en_US": "Defense",
+    "ja_JP": "ディフェンド"
+  },
+  "luck": {
+    "en_US": "Luck",
+    "ja_JP": "ラッキー"
+  },
+  "agility": {
+    "en_US": "Agility",
+    "ja_JP": "アジリティ"
+  },
+  "Qualities": {
+    "en_US": "Qualities",
+    "ja_JP": "特徴"
+  },
+  "Country Manager": {
+    "en_US": "Country Manager",
+    "ja_JP": "カントリーマネージャー"
+  },
+  "Hurry up": {
+    "en_US": "Hurry up!",
+    "ja_JP": "Hurry up!"
+  },
+  "Hurry-up-info-1": {
+    "en_US": "The Spin Drop will be closed when there’s no Spin left.",
+    "ja_JP": "The Spin Drop will be closed when there’s no Spin left."
+  },
+  "Hurry-up-info-2": {
+    "en_US": "Each wallet can only Spin once.",
+    "ja_JP": "Each wallet can only Spin once."
+  },
+  "Hurry-up-info-3": {
+    "en_US": "Hurry up! Spin now to receive many valuable gifts!",
+    "ja_JP": "Hurry up! Spin now to receive many valuable gifts!"
+  },
+  "Remaining Spin": {
+    "en_US": "Remaining Spin",
+    "ja_JP": "Remaining Spin"
+  },
+  "platform": {
+    "en_US": "Platforms",
+    "ja_JP": "プラットフォーム"
+  },
+  "Pitch Deck": {
+    "en_US": "Pitch Deck",
+    "ja_JP": "ホワイトペーパー"
+  },
+  "exceeded-quantity": {
+    "en_US": "Exceeded the allowed quantity",
+    "ja_JP": "許容量を超えました"
+  },
+  "private-sales-completed": {
+    "en_US": "You have completed!",
+    "ja_JP": "完了しました！"
+  },
+  "private-sales-system-pending": {
+    "en_US": "System pending!",
+    "ja_JP": "システム保留中！"
+  },
+  "private-sales-wait-until-open": {
+    "en_US": "Please wait until the opening date",
+    "ja_JP": "開店日までお待ちください"
+  },
+  "private-sales-title": {
+    "en_US": "Initial Partnership Offering",
+    "ja_JP": "プライベートセール"
+  },
+  "ipo-text-1": {
+    "en_US": "We are offering our Private Sale round to all eligible partners who have good communities. By partnering with us, all members in your community will become the first users to enjoy the hottest games in the past 20 years and earn sustainable income from exploring the MangaMon Metaverse everyday.",
+    "ja_JP": "このたび、優良なコミュニティをお持ちのパートナー様を対象に、プライベートセールラウンドを開催することになりました。私たちとパートナーになることで、あなたのコミュニティのメンバー全員が、過去20年間で最もホットなゲームを楽しむ最初のユーザーになり、毎日マンガモンメタバースを探索することで持続的な収入を得ることができるようになる。"
+  },
+  "ipo-text-2": {
+    "en_US": "By joining our Initial Partnership Offering, you will be invited to our exclusive Telegram group so that we can work on further marketing and partnership expansion plans in the future.",
+    "ja_JP": "イニシャル・パートナーシップ・オファリングに参加することで、私たちの独占テレグラムグループに招待され、将来的にさらなるマーケティングとパートナーシップの拡大計画に取り組むことができるようになる。"
+  },
+  "ipo-text-3": {
+    "en_US": "You will receive 6% of the purchased amount of MAN tokens 3 hours after we added liquidity on SuShi Swap, and you will continue to receive the next 6% after 30 days (daily linear vesting 16 months, 6% each month, 4% last month). Please remember to connect your wallet and press the “Claim” button to receive your MAN on the days we unlock your tokens.",
+    "ja_JP": "MANトークンの購入額の6％は、スシスワップで流動性を追加してから3時間後に受け取り、30日後に次の6％を受け取り、その後、すべてのMANトークンがアンロックされるまで毎月6％を受け取り続けることになります。トークンのロックが解除された日にMANトークンを受け取るために、ウォレットを接続し、「請求」ボタンを押すことを忘れないでください。"
+  },
+  "ipo-text-4": {
+    "en_US": "Please fill in the necessary information below including the amount of USDT you wish to purchase MAN token as well as links to all the communities you are managing as an admin.",
+    "ja_JP": "MANトークンの購入を希望するUSDTの金額と、管理者として管理している全てのコミュニティへのリンクなど、必要な情報を以下に入力してください。"
+  },
+  "Connect your Wallet to get complete information": {
+    "en_US": "Connect your Wallet to get complete information!",
+    "ja_JP": "ウォレットを接続して、完全な情報を得ることができる。"
+  },
+  "I have read and accepted": {
+    "en_US": "I have read and accepted",
+    "ja_JP": "私は読んで受け入れました"
+  },
+  "Telegram Username": {
+    "en_US": "Telegram Username",
+    "ja_JP": "テレグラムユーザーネーム"
+  },
+  "Email": {
+    "en_US": "Email",
+    "ja_JP": "Eメール"
+  },
+  "Links to your Telegram Groups and Channels": {
+    "en_US": "Links to your Telegram Groups and Channels",
+    "ja_JP": "テレグラムグループとチャンネルのリンク"
+  },
+  "Links to other Social Groups and Channels": {
+    "en_US": "Links to other Social Groups and Channels",
+    "ja_JP": "他のソーシャルグループとチャンネルのリンク"
+  },
+  "Purchase Amount": {
+    "en_US": "Purchase Amount",
+    "ja_JP": "パーチェスアマウント"
+  },
+  "Wallet address": {
+    "en_US": "Wallet address",
+    "ja_JP": "ウォレットアドレス"
+  },
+  "Registration": {
+    "en_US": "Registration",
+    "ja_JP": "登録"
+  },
+  "Approval": {
+    "en_US": "Approval",
+    "ja_JP": "アプルーブ"
+  },
+  "Purchase": {
+    "en_US": "Purchase",
+    "ja_JP": "パーチェス"
+  },
+  "Claim Tokens": {
+    "en_US": "Claim Tokens",
+    "ja_JP": "クレイム トークン"
+  },
+  "Partner Registration": {
+    "en_US": "Partner Registration",
+    "ja_JP": "パートゥナー 登録"
+  },
+  "Terms of Service & Privacy Policy": {
+    "en_US": "Terms of Service & Privacy Policy",
+    "ja_JP": "利用規約とプライバシーポリシー"
+  },
+  "Your request is being reviewed": {
+    "en_US": "Your request is being reviewed",
+    "ja_JP": "リクエストを検討されている"
+  },
+  "Your referral link": {
+    "en_US": "Your referral link",
+    "ja_JP": "あなたの紹介リンク"
+  },
+  "Invest": {
+    "en_US": "Invest",
+    "ja_JP": "投資"
+  },
+  "Maximum amount of USDT you can purchase": {
+    "en_US": "Maximum amount of USDT you can purchase",
+    "ja_JP": "購入可能なUSDTの上限金額。"
+  },
+  "You not enough USDT to purchase!": {
+    "en_US": "You not enough USDT to purchase!",
+    "ja_JP": "購入するUSDTが足りない。"
+  },
+  "Claimed": {
+    "en_US": "Claimed",
+    "ja_JP": "請求する。"
+  },
+  "Claim Now": {
+    "en_US": "Claim Now",
+    "ja_JP": "今すぐ請求する。"
+  },
+  "ipo-claim-wait-next-unlock": {
+    "en_US": "Please wait until the next unlock to claim MAN tokens",
+    "ja_JP": "MANトークンを受け取るには、次のアンロックまでお待ちください。"
+  },
+  "ipo-not-start-claim-date": {
+    "en_US": "It's not time to open claim yet, please wait a while",
+    "ja_JP": "まだ請求開始前なので、しばらくお待ち下さい。"
+  },
+  "you-claimed-it": {
+    "en_US": "You've claimed it!",
+    "ja_JP": "あなたはそれを請求しました。"
+  },
+  "Hours": {
+    "en_US": "Hours",
+    "ja_JP": "時間"
+  },
+  "Minutes": {
+    "en_US": "Minutes",
+    "ja_JP": "分"
+  },
+  "Seconds": {
+    "en_US": "Seconds",
+    "ja_JP": "秒"
+  },
+  "Year": {
+    "en_US": "Year",
+    "ja_JP": "年"
+  },
+  "Month": {
+    "en_US": "Month",
+    "ja_JP": "月"
+  },
+  "private-sale-completed": {
+    "en_US": "Completed!",
+    "ja_JP": "完了しました！"
+  },
+  "claimed-before": {
+    "en_US": "You have already claimed before",
+    "ja_JP": "あなたはすでに前に主張しました"
+  },
+  "listingPrice": {
+    "en_US": "Price",
+    "ja_JP": "Price"
+  },
+  "Partnership Manager": {
+    "en_US": "Partnership Manager",
+    "ja_JP": "パートナーシップ担当"
+  },
+  "Traded": {
+    "en_US": "Traded",
+    "ja_JP": "トレード"
+  },
+  "Vol": {
+    "en_US": "Volume",
+    "ja_JP": "取引量"
+  },
+  "Listed": {
+    "en_US": "Listed",
+    "ja_JP": "リスト"
+  },
+  "Skills": {
+    "en_US": "Skills",
+    "ja_JP": "スキル"
+  },
+  "Connect your wallet to view full informantion": {
+    "en_US": "Connect your wallet to view full informantion",
+    "ja_JP": "ウォレットを接続すると、全情報が表示されます"
+  },
+  "Job": {
+    "en_US": "Job",
+    "ja_JP": "ジョブ"
+  },
+  "Type": {
+    "en_US": "Type",
+    "ja_JP": "タイプ"
+  },
+  "Cancel Order": {
+    "en_US": "Cancel Order",
+    "ja_JP": "キャンセル"
+  },
+  "LISTING": {
+    "en_US": "LISTING",
+    "ja_JP": "リスティング"
+  },
+  "CANCELED": {
+    "en_US": "CANCELED",
+    "ja_JP": "CANCELED"
+  },
+  "TRADED": {
+    "en_US": "TRADED",
+    "ja_JP": "TRADED"
+  },
+  "Seller": {
+    "en_US": "Seller",
+    "ja_JP": "販売者"
+  },
+  "Lowest Price": {
+    "en_US": "Lowest Price",
+    "ja_JP": "最低価格"
+  },
+  "Latest": {
+    "en_US": "Latest",
+    "ja_JP": "最新"
+  },
+  "Highest Price": {
+    "en_US": "Highest Price",
+    "ja_JP": "最高価格"
+  },
+  "Inventory": {
+    "en_US": "Inventory",
+    "ja_JP": "在庫"
+  },
+  "evolution-machine": {
+    "en_US": "Evolution Machine",
+    "ja_JP": "Evolution Machine"
+  },
+  "Store": {
+    "en_US": "Store",
+    "ja_JP": "お店"
+  },
+  "egglet-nfts": {
+    "en_US": "Egglet NFTs",
+    "ja_JP": "Egglet NFTs"
+  },
+  "Rent": {
+    "en_US": "Rent",
+    "ja_JP": "賃料"
+  },
+  "Create Order": {
+    "en_US": "Create Order",
+    "ja_JP": "注文を作成する"
+  },
+  "Marketplace": {
+    "en_US": "Marketplace",
+    "ja_JP": "マーケットプレイス"
+  },
+  "Wiki": {
+    "en_US": "Wiki",
+    "ja_JP": "ウィキ"
+  },
+  "Stats": {
+    "en_US": "Stats",
+    "ja_JP": "スタッツ"
+  },
+  "Story": {
+    "en_US": "Story",
+    "ja_JP": "ストーリー"
+  },
+  "Ranking": {
+    "en_US": "Ranking",
+    "ja_JP": "ランキング"
+  },
+  "Market Order": {
+    "en_US": "Market Order",
+    "ja_JP": "販売中"
+  },
+  "You got this Egglet": {
+    "en_US": "You got this Egglet",
+    "ja_JP": "この卵を手に入れた"
+  },
+  "You have created a new Order on the Marketplace": {
+    "en_US": "You have created a new Order on the Marketplace",
+    "ja_JP": "マーケットプレイスで新しいオーダーを作成しました"
+  },
+  "Select Egglet for Sell On Marketplace": {
+    "en_US": "Select Egglet for Sell On Marketplace",
+    "ja_JP": "マーケットプレイスで販売するエッグレットを選択する"
+  },
+  "Daily Mission": {
+    "en_US": "Daily Mission",
+    "ja_JP": "デイリーミッション"
+  },
+  "Inventory Game": {
+    "en_US": "Inventory",
+    "ja_JP": "インベントリー"
+  },
+  "Treasure": {
+    "en_US": "Treasure",
+    "ja_JP": "トレジャー"
+  },
+  "You own Egglet": {
+    "en_US": "You own Egglet",
+    "ja_JP": "新しいエッグレットを受け取る"
+  },
+  "Congratulation": {
+    "en_US": "Successful",
+    "ja_JP": "おめでとう"
+  },
+  "Need fUSDT? Swap FTM for fUSDT on": {
+    "en_US": "Need fUSDT? Swap FTM for fUSDT on",
+    "ja_JP": "fUSDTが必要ですか？"
+  },
+  "Or": {
+    "en_US": ". Or",
+    "ja_JP": "でFTMをfUSDTに交換するか、他のチェーンから"
+  },
+  "Bridge": {
+    "en_US": "Bridge",
+    "ja_JP": "ブリッジ"
+  },
+  "from other chains.": {
+    "en_US": "from other chains.",
+    "ja_JP": "する。"
+  },
+  "Use to reset Qualities Of NFT": {
+    "en_US": "Use to reset Qualities Of NFT",
+    "ja_JP": "NFTの品質をリセットするために使用する"
+  },
+  "Materials for the Evolution of NFT": {
+    "en_US": "Materials for the Evolution of NFT",
+    "ja_JP": "NFTを進化させるための材料"
+  },
+  "When you open the box, you will get a Lv": {
+    "en_US": "When you open the box, you will get a Lv",
+    "ja_JP": "ボックスを開けると、Lv"
+  },
+  "Egglet and possibly an additional “One of the lucky rewards": {
+    "en_US": "Egglet and possibly an additional “One of the lucky rewards”",
+    "ja_JP": "エッグレットと、場合によっては \"幸運の報酬の一つ \"が追加で手に入ります。"
+  },
+  "ido description": {
+    "en_US": "Purchase MAN at a good price and take your chance to become one of the first users to enjoy the hottest games in the past 20 years in our MangaMon Metaverse! The sooner you join, the faster you can come up with the best strategy to earn more and be in the top 100 players that win big rewards!",
+    "ja_JP": "MANをお得に購入して、過去20年間で最もホットなゲームを私たちのマンガモンメタバースで楽しむ最初のユーザーの一人になるチャンスを掴みましょう。 早く参加すればするほど、より多く稼ぐための最高の戦略を考えて、大きな報酬を獲得するトップ１００プレイヤーになることができます！"
+  },
+  "ido description-text2": {
+    "en_US": "There will be 2 IDO rounds: the first round is for Whitelist winners & the second round is for all Whitelist users with first-come-first-served rule. The second IDO is for over 20,000 successful Whitelist participants but did not win the Whitelist is to ensure that all Fans can buy MAN at a good price and the IDO is successful, with only 1008 slots as planned in our market development strategy.",
+    "ja_JP": "IDOは2回行われます。1回目はホワイトリスト当選者、2回目はすべてのホワイトリストユーザーが対象で、先着順のルールになります。2回目のIDOは、ホワイトリストに当選しなかった20,000人以上の参加者を対象とし、すべてのファンがMANをお得に購入できるように、IDOは成功し、開発戦略で計画した1008枠スロットになります。"
+  },
+  "PiranhaStory": {
+    "en_US": "Piranha is the de facto leader of The Trench tribe, where there is only one rule: The strong eat the weak. However, Piranha didn’t want his talent and power to be wasted in the dark and toxic lands where The Trench tribe rules over. With that malicious plan, Piranha is going to invade the Borth forest to expand his territory.",
+    "ja_JP": "Piranha is the de facto leader of The Trench tribe, where there is only one rule: The strong eat the weak. However, Piranha didn’t want his talent and power to be wasted in the dark and toxic lands where The Trench tribe rules over. With that malicious plan, Piranha is going to invade the Borth forest to expand his territory."
+  },
+  "AlphonisStory": {
+    "en_US": "Alphonis is a terrifying creature created by the god Apollo to guard the Magellan temple. With the Hera Scepter in grip, Alphonis will neutralize and disintegrate anyone that dares to invade the temple. Piranha of The Trench Tribe has also fallen under Alphonis’ overwhelming power.",
+    "ja_JP": "Alphonis is a terrifying creature created by the god Apollo to guard the Magellan temple. With the Hera Scepter in grip, Alphonis will neutralize and disintegrate anyone that dares to invade the temple. Piranha of The Trench Tribe has also fallen under Alphonis’ overwhelming power."
+  },
+  "Enter Price": {
+    "en_US": "Enter Price",
+    "ja_JP": "価格を入力してください"
+  },
+  "Listing Fee": {
+    "en_US": "Listing Fee",
+    "ja_JP": "リスティングフィー"
+  },
+  "Trading Fee": {
+    "en_US": "Trading Fee",
+    "ja_JP": "取引手数料"
+  },
+  "All the purchased MAN tokens can be claimed based on our Vesting schedule": {
+    "en_US": "All the purchased MAN tokens can be claimed based on our Vesting schedule ",
+    "ja_JP": "購入されたMANトークンは、"
+  },
+  "here": {
+    "en_US": "here",
+    "ja_JP": "こちら"
+  },
+  "info-ido": {
+    "en_US": ".",
+    "ja_JP": "の権利確定スケジュールに基づき、請求することができます。"
+  },
+  "IDO Slots Remain": {
+    "en_US": "IDO Slots Remain",
+    "ja_JP": "IDOスロットが残る"
+  },
+  "You can purchase": {
+    "en_US": "You can purchase",
+    "ja_JP": "マックス"
+  },
+  "You got this Item": {
+    "en_US": "You got this Item",
+    "ja_JP": "You got this Item"
+  }
+}

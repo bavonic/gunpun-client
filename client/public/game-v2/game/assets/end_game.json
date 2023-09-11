@@ -1,0 +1,104 @@
+{
+	"textures": [
+		{
+			"image": "end_game.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1328,
+				"h": 1238
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "lose.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1239,
+						"h": 703
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1239,
+						"h": 703
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1239,
+						"h": 703
+					}
+				},
+				{
+					"filename": "win.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1105,
+						"h": 531
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1105,
+						"h": 531
+					},
+					"frame": {
+						"x": 1,
+						"y": 706,
+						"w": 1105,
+						"h": 531
+					}
+				},
+				{
+					"filename": "btn_oke.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 219,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 219,
+						"h": 78
+					},
+					"frame": {
+						"x": 1108,
+						"y": 706,
+						"w": 219,
+						"h": 78
+					}
+				},
+				{
+					"filename": "btn_try_again.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 219,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 219,
+						"h": 68
+					},
+					"frame": {
+						"x": 1108,
+						"y": 786,
+						"w": 219,
+						"h": 68
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:976f3345b0aea4bcff6d337570c6e274:56abf25fdd90c27e797e34f897d2bb94:33ff60b5d6ecc485984ee5f7bd1a29e0$"
+	}
+}

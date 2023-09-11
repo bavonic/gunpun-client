@@ -1,0 +1,146 @@
+{
+	"textures": [
+		{
+			"image": "waiting-room.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1922,
+				"h": 1382
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1920,
+						"h": 1080
+					}
+				},
+				{
+					"filename": "robot.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 243,
+						"h": 298
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 243,
+						"h": 298
+					},
+					"frame": {
+						"x": 1,
+						"y": 1083,
+						"w": 243,
+						"h": 298
+					}
+				},
+				{
+					"filename": "btn_play.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 127
+					},
+					"frame": {
+						"x": 246,
+						"y": 1083,
+						"w": 400,
+						"h": 127
+					}
+				},
+				{
+					"filename": "btn_ready.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 127
+					},
+					"frame": {
+						"x": 246,
+						"y": 1212,
+						"w": 400,
+						"h": 127
+					}
+				},
+				{
+					"filename": "enamy.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 798,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 798,
+						"h": 95
+					},
+					"frame": {
+						"x": 648,
+						"y": 1083,
+						"w": 798,
+						"h": 95
+					}
+				},
+				{
+					"filename": "exit.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 800,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 800,
+						"h": 89
+					},
+					"frame": {
+						"x": 648,
+						"y": 1180,
+						"w": 800,
+						"h": 89
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:fdebd0f7550ec6de444f3e7bcffc06c3:e891aa809e4070c59020d619a4dbd9aa:e825eeee3a1a729381afc856206a2425$"
+	}
+}

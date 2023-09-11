@@ -1,0 +1,13 @@
+.modal-create-room {
+  display: flex;
+  flex-direction: column;
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__submit {
+    align-self: flex-end;
+  }
+}

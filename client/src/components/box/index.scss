@@ -1,0 +1,116 @@
+.Box {
+  background-color: rgba($color: $dark, $alpha: 0.8);
+  border-radius: $borderRadius;
+  @include dropShadow;
+  color: $white;
+  padding: 0.6em;
+  position: relative;
+
+  &.full {
+    border: 3px solid $primary;
+  }
+
+  >.border-none {
+    border: none;
+  }
+
+  >.border-horizontal {
+    @include flexBox(space-between);
+    flex-direction: column;
+    width: 100%;
+    height: calc(100% + 4px);
+    margin-top: -2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    >hr {
+      width: 60%;
+      border: none;
+      height: 5px;
+      background-color: $primary;
+      border-radius: $borderRadius;
+    }
+  }
+
+  >.title {
+    font-size: 1.2em;
+    color: $primary;
+    margin-bottom: 0.5em;
+    width: 100%;
+    @include flexBox(flex-start);
+  }
+
+  >.icon {
+    @include flexBox;
+    margin-bottom: 0.5em;
+
+    svg {
+      height: 3em;
+
+      * {
+        fill: $white;
+      }
+    }
+  }
+
+  >.msg {
+    text-align: center;
+    font-size: 0.8em;
+  }
+
+  &.w100 {
+    width: 100%;
+  }
+
+  &.boxGame {
+    border: 2px solid $green;
+    box-sizing: border-box;
+    background-color: rgba($color: #117e39, $alpha: 0.7);
+    // border-top-width: 8px;
+
+    .conner {
+      position: absolute;
+
+      >svg {
+        width: 4em;
+        height: fit-content;
+      }
+
+      &.topLeft {
+        top: -0.5em;
+        left: -0.7em;
+      }
+
+      &.topRight {
+        top: -0.5em;
+        right: -0.7em;
+        transform: scaleX(-1);
+      }
+
+      &.bottomRight {
+        bottom: -0.5em;
+        right: -0.7em;
+        transform: scale(-1);
+      }
+
+      &.bottomLeft {
+        bottom: -0.5em;
+        left: -0.7em;
+        transform: scaleY(-1);
+      }
+    }
+  }
+}
+
+.Mobile {
+  .Box {
+    padding: 0.5em;
+
+    >.title {
+      font-size: 1em;
+      margin-bottom: 0.2em;
+    }
+  }
+}

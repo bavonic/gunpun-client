@@ -1,0 +1,38 @@
+.EventNotification {
+  position: fixed;
+  top: 5em;
+  width: 100%;
+  z-index: 48;
+
+  .content {
+    width: 35em;
+    margin: 0 auto;
+    @include flexBox;
+    background: rgba(#000000, 0.2);
+    border-radius: 0.1em;
+  }
+
+  .wrapperText {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    > .text {
+      display: inline-block;
+      padding-left: 100%;
+      animation: move 25s linear infinite;
+      color: $white;
+      @include dropShadow;
+    }
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}

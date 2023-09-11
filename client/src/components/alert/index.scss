@@ -1,0 +1,68 @@
+@import "../../module.variables.scss";
+
+.Alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba($color: #000000, $alpha: 0.8);
+  z-index: 200;
+  backdrop-filter: blur(1px);
+  @include flexBox;
+
+  > .box {
+    width: max-content;
+    min-width: 25em;
+    max-width: calc(100% - 1em);
+    background: $dark;
+    padding: 1.2em;
+    @include flexBox(center, center, column);
+    color: $white;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 2px 3px 15px rgba($color: #000000, $alpha: 1);
+    border: 1px solid rgba($color: $primary, $alpha: 0.3);
+
+    > .title {
+      color: $primary;
+      font-size: 1.2em;
+      margin-bottom: 0.5em;
+    }
+
+    > .body {
+      margin-bottom: 1.5em;
+      font-size: 0.9em;
+      line-height: 1.4em;
+      max-width: 45em;
+
+      > img {
+        width: 7rem;
+      }
+
+      > p {
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+      }
+    }
+
+    > .ctas {
+      > .Button {
+        margin: 0 0.3em;
+        box-shadow: none;
+      }
+    }
+  }
+
+  &.ERROR {
+    > .box {
+      padding-top: 0;
+    }
+  }
+
+  .animationError {
+    svg {
+      width: 7em !important;
+    }
+  }
+}

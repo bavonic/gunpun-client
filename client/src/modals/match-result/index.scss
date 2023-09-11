@@ -1,0 +1,57 @@
+.ModalMatchResult {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 110;
+  // padding-top: calc(0.5em);
+  background: rgba($color: #000000, $alpha: 0.8);
+  backdrop-filter: blur(2px);
+
+  > .wraper {
+    height: 100%;
+    // @include flexBox;
+    flex-direction: column;
+
+    .content {
+      @include flexBox;
+      flex-direction: column;
+      // margin-top: -3em;
+
+      > img {
+        width: 30em;
+        z-index: 2;
+      }
+
+      .ctas {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2em;
+      }
+
+      // .Button {
+      //   border-radius: 10px;
+
+      //   > * {
+      //     border-radius: 10px;
+      //   }
+      // }
+    }
+  }
+}
+
+.Mobile {
+  .ModalEndSceneGame {
+    .wraper .content {
+      > img {
+        width: 28em;
+      }
+
+      > .Button {
+        margin-top: 0;
+      }
+    }
+  }
+}

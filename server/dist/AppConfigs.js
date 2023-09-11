@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.rootAddress = exports.APP_KEY = exports.PORT = exports.ENV = exports.getEnv = exports.initialEnvs = void 0;
+exports.initialEnvs = {
+    APP_NAME: 'GUNPUN-SERVER-GAME',
+    ENV: 'develop',
+    PORT: '4001',
+    CLIENT_GAME_URL: `http://localhost:3100`,
+    CLIENT_PUBLIC_URL: `http://localhost:3000`,
+    PUBLIC_URL: `http://localhost:4001`,
+    // MAIN_SERVER_PORTAL_URL: `http://localhost:4000`,
+    MAIN_SERVER_PORTAL_URL: `https://api-staging.gunpun.io`,
+    REDIS_URL: 'redis://:@34.124.197.66:6000',
+    DATABASE_URL: 'mongodb+srv://admin:ZrRXrjGWVScGy2Zx@simba.6ysnu.mongodb.net/GunPunGameStaging?retryWrites=true&w=majority',
+    // DATABASE_URL: 'mongodb://localhost:27017/GameDevelop?retryWrites=true&w=majority',
+    AMQP_URL: 'amqp://admin:bNUS7KVqbGCyqN2@35.221.131.146:5672',
+    DATABASE_MAX_QUERY_LIMIT: '40',
+};
+const getEnv = (key) => process.env[key] || exports.initialEnvs[key];
+exports.getEnv = getEnv;
+exports.ENV = (0, exports.getEnv)('ENV');
+exports.PORT = +(0, exports.getEnv)('PORT');
+exports.APP_KEY = `${(0, exports.getEnv)('APP_NAME')}-${(0, exports.getEnv)('ENV')}`.toUpperCase();
+exports.rootAddress = "0x0000000000000000000000000000000000000000";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQXBwQ29uZmlncy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL3NyYy9BcHBDb25maWdzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFhLFFBQUEsV0FBVyxHQUFHO0lBQ3pCLFFBQVEsRUFBRSxvQkFBb0I7SUFDOUIsR0FBRyxFQUFFLFNBQVM7SUFDZCxJQUFJLEVBQUUsTUFBTTtJQUNaLGVBQWUsRUFBRSx1QkFBdUI7SUFDeEMsaUJBQWlCLEVBQUUsdUJBQXVCO0lBQzFDLFVBQVUsRUFBRSx1QkFBdUI7SUFDbkMsbURBQW1EO0lBQ25ELHNCQUFzQixFQUFFLCtCQUErQjtJQUN2RCxTQUFTLEVBQUUsOEJBQThCO0lBQ3pDLFlBQVksRUFBRSw0R0FBNEc7SUFDMUgscUZBQXFGO0lBQ3JGLFFBQVEsRUFBRSxrREFBa0Q7SUFDNUQsd0JBQXdCLEVBQUUsSUFBSTtDQUMvQixDQUFBO0FBRU0sTUFBTSxNQUFNLEdBQUcsQ0FBQyxHQUE2QixFQUFFLEVBQUUsQ0FBQyxPQUFPLENBQUMsR0FBRyxDQUFDLEdBQUcsQ0FBQyxJQUFJLG1CQUFXLENBQUMsR0FBRyxDQUFDLENBQUM7QUFBakYsUUFBQSxNQUFNLFVBQTJFO0FBQ2pGLFFBQUEsR0FBRyxHQUFHLElBQUEsY0FBTSxFQUFDLEtBQUssQ0FBQyxDQUFDO0FBQ3BCLFFBQUEsSUFBSSxHQUFHLENBQUMsSUFBQSxjQUFNLEVBQUMsTUFBTSxDQUFDLENBQUM7QUFDdkIsUUFBQSxPQUFPLEdBQUcsR0FBRyxJQUFBLGNBQU0sRUFBQyxVQUFVLENBQUMsSUFBSSxJQUFBLGNBQU0sRUFBQyxLQUFLLENBQUMsRUFBRSxDQUFDLFdBQVcsRUFBRSxDQUFDO0FBQ2pFLFFBQUEsV0FBVyxHQUFHLDRDQUE0QyxDQUFDIn0=

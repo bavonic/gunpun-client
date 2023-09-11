@@ -1,0 +1,29 @@
+@import "./wrapper";
+// @import "./date";
+@import "./select";
+@import "./checkbox";
+@import "../../module.variables.scss";
+
+input,
+textarea {
+  outline: none;
+  border: none;
+  // padding: 0 0.2em;
+  height: $inputHeight;
+  font-size: 1em;
+  padding: 0 0.5em;
+  // padding: 0 7px;
+  width: 100%;
+  color: $white;
+  font-family: inherit;
+  background: transparent;
+  // @include background-opacity(#0e2217, 0.8);
+  // filter: drop-shadow(2px 2px 0px rgba(#a57a40, 1));
+
+  &:disabled {
+    background: rgba($color: $dark, $alpha: 0.3);
+    // filter: grayscale(1);
+    cursor: default;
+    // border-radius: $borderRadius;
+  }
+}
